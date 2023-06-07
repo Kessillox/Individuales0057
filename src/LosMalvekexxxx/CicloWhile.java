@@ -6,7 +6,7 @@ public class CicloWhile{
         int i = 1;
 
         while(i < 10){
-            System.out.println( "El valor del numero es " + i );
+            System.out.println( "El valor del numero es  " + i );
             i+=2;
         }
     }
