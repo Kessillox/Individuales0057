@@ -9,7 +9,7 @@ public class ForEachEjemplo {
         // En este caso, se declara un arreglo de enteros llamado "nombreArray" y se inicializa con valores del 1 al 10.
         int [] nombreArray = {1,2,3,4,5,6,7,8,9,10};
 
-        // En este caso, se declara un arreglo de enteros llamado "nombreArray" y se inicializa con valores del 1 al 10.
+        // Luego, se utiliza el bucle foreach para recorrer cada elemento del arreglo y realizar una acción.
         for (int resultado: nombreArray){
 
             // Dentro del bucle, se imprime en la consola un mensaje que indica el elemento por el que se está pasando.
