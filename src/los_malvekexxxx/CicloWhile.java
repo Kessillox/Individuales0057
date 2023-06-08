@@ -1,4 +1,4 @@
-package LosMalvekexxxx;
+package los_malvekexxxx;
 
 public class CicloWhile{
     public static void main(String args[]){
