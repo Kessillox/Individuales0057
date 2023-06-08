@@ -2,7 +2,7 @@ package los_malvekexxxx.gabriel_cordero.java_gcm;
 
 import java.util.Scanner;
 
-public class TareaIndividual1 {
+public class TareaIndividual3 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
