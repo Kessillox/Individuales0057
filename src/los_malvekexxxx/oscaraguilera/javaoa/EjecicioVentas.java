@@ -1,4 +1,4 @@
-package LosMalvekexxxx.oscaraguilera.javaoa;
+package los_malvekexxxx.oscaraguilera.javaoa;
 
 import java.util.Scanner;
 public class EjecicioVentas {

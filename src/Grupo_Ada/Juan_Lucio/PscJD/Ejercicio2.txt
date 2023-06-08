@@ -1,0 +1,20 @@
+1. Inicio Proceso 'Ingreso a Portal Web'
+
+2. Pedir al usuario que ingrese su nombre de usuario y contraseña.
+
+3. Verificar si el nombre de usuario ingresado existe en la base de datos.
+a. Si el usuario no existe, mostrar mensaje de error y volver al paso 1.
+
+4. Verificar si la cuenta de usuario está caducada.
+a. Si la cuenta está caducada, mostrar mensaje de error y volver al paso 1.
+
+5. Verificar si la contraseña ingresada es correcta.
+a. Si la contraseña es incorrecta, mostrar mensaje de error y volver al paso 1.
+
+6. Si el usuario y la contraseña son correctos, redirigir al usuario a la página principal del portal.
+
+7. FinProceso
+
+--
+
+Juan Lucio
