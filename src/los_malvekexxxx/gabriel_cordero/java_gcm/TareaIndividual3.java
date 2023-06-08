@@ -6,14 +6,21 @@ public class TareaIndividual3 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        Scanner NB = new Scanner(System.in);
 
         System.out.println("************************************************");
         System.out.println("*Bienvenido al Sistema De Cotizacion De Eventos*");
         System.out.println("************************************************");
         System.out.println("");
 
+
+        System.out.println("Por favor ingresa tu nombre: ");
+        String Nombre = NB.nextLine();
+
         System.out.println("Por favor ingresa cuantas personas asisitiran al evento: ");
         int Personas = sc.nextInt();
+
+
 
         int costoPorPersona;
 
@@ -31,8 +38,8 @@ public class TareaIndividual3 {
 
         int costoTotal = Personas * costoPorPersona;
 
-        System.out.println("El valor total del banquete es de: $" +costoTotal+ " pesos");
-        System.out.println("Para las " +Personas+ " personas" );
+        System.out.println(Nombre +" el valor total del banquete es de $" +costoTotal+ " pesos");
+        System.out.println("Para las " +Personas+ " personas " + "con un costo de " +"$" +costoPorPersona+ " pesos " +" por cada una" );
 
     }
 
