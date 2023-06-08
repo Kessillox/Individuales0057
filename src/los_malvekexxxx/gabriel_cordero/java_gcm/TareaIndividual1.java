@@ -1,12 +1,19 @@
 package los_malvekexxxx.gabriel_cordero.java_gcm;
 
+import java.util.Scanner;
+
 public class TareaIndividual1 {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        System.out.print("Cuantas personas asisitiran al evento: ");
-        int Personas = input.nextInt();
+        System.out.println("************************************************");
+        System.out.println("*Bienvenido al Sistema De Cotizacion De Eventos*");
+        System.out.println("************************************************");
+        System.out.println("");
+
+        System.out.println("Por favor ingresa cuantas personas asisitiran al evento: ");
+        int Personas = sc.nextInt();
 
         int costoPorPersona;
 
@@ -24,7 +31,8 @@ public class TareaIndividual1 {
 
         int costoTotal = Personas * costoPorPersona;
 
-        System.out.println("El valor del banquete es: $" +costoTotal);
+        System.out.println("El valor total del banquete es de: $" +costoTotal+ " pesos");
+        System.out.println("Para las " +Personas+ " personas" );
 
     }
 
