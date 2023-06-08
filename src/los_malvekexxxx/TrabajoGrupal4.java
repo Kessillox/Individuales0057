@@ -2,7 +2,7 @@ package los_malvekexxxx;
 
 
 import java.util.Scanner;
-public class TrabajoGrupal2Creo {
+public class TrabajoGrupal4 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
