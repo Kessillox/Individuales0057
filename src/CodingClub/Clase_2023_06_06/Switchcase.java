@@ -1,3 +1,4 @@
+package CodingClub.Clase_2023_06_06;
 
 import java.util.Scanner;
 
