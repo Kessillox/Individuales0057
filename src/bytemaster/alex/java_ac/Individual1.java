@@ -1,4 +1,4 @@
-package bytemaster.Alex.JavaAC;
+package bytemaster.alex.java_ac;
 import java.util.Scanner;
 public class Individual1 {
     public static void main(String[] args) {
