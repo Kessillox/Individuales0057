@@ -1,0 +1,29 @@
+
+Proceso TareaIndividual3
+
+		Definir Personas, costoPorPersona, costoTotal como entero;
+
+		Escribir "************************************************";
+		Escribir "*Bienvenido al Sistema De Cotizacion De Eventos*";
+		Escribir "************************************************";
+		Escribir "";
+
+		Escribir "Por favor ingresa cuantas personas asisitiran al evento: ";
+		Leer Personas;
+
+		Si Personas > 300 Entonces
+			costoPorPersona <- 4000;
+
+		Sino Si Personas > 200 Entonces;
+				costoPorPersona <- 4200;
+			Sino
+				costoPorPersona <- 4500;
+			Fin Si
+			Fin si
+
+			costoTotal = Personas * costoPorPersona;
+
+			Escribir "El valor total del banquete es de: $", costoTotal , " pesos";
+			Escribir "Para las " , Personas , " personas";
+
+FinProceso
