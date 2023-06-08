@@ -1,6 +1,6 @@
 package bytemaster.alex.java_ac;
 import java.util.Scanner;
-public class Individual1 {
+public class Individual3 {
     public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
 
