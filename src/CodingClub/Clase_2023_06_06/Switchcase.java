@@ -1,9 +1,11 @@
+package CodingClub.Clase_2023_06_06;
 
 import java.util.Scanner;
 
 public class Switchcase {
 
     public static void main(String args[]) {
+        System.out.println("Ingrese un color de semaforo");
         Scanner scanner = new Scanner(System.in);
         String colorDeSemaforo = scanner.nextLine();
         switch (colorDeSemaforo) {
@@ -17,7 +19,7 @@ public class Switchcase {
                 System.out.println("Detenerse");
                 break;
             default:
-                System.out.println("Color inválido");
+                System.out.println("Color invalido");
         }
     }
 }
