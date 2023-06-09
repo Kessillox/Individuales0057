@@ -1,28 +1,39 @@
-Proceso TrabajoInd3
+Proceso CalcularSueldoTrabajadores
 
-	Definir Personas, costoPorPersona, costoTotal como entero;
+    // Paso 1: Leer el valor a pagar por hora de trabajo
+    Escribir "Ingrese el valor a pagar por hora de trabajo:"
+    Leer valorHora
 
+    // Paso 2: Leer la cantidad de trabajadores
+    Escribir "Ingrese la cantidad de trabajadores:"
+    Leer cantidadTrabajadores
 
-	Escribir "Sistema De Cotizacion De Eventos";
+    // Paso 3: Repetir por cada trabajador
+    Para i = 1 hasta cantidadTrabajadores hacer
+        // Paso 4: Leer los datos del trabajador
+        Escribir "Ingrese el nombre del trabajador ", i, ":"
+        Leer nombre
 
-	Escribir "";
+        Escribir "Ingrese la edad del trabajador ", i, ":"
+        Leer edad
 
-	Escribir "Favor ingrese cuantas personas asisitiran al evento (valor numerico, sin puntos ni signos): ";
-	Leer Personas;
+        // Paso 5: Leer las horas trabajadas en cada día de la semana
+        horasTotales = 0
+        Para dia = 1 hasta 5 hacer
+            Escribir "Ingrese las horas trabajadas por ", nombre, " el día ", dia, ":"
+            Leer horasDia
+            horasTotales = horasTotales + horasDia
+        Fin Para
 
-	Si Personas > 300 Entonces
-		costoPorPersona <- 4000;
+        // Paso 6: Calcular el sueldo semanal
+        sueldoSemanal = horasTotales * valorHora
 
-	Sino Si Personas > 200 Entonces;
-			costoPorPersona <- 4200;
-		Sino
-			costoPorPersona <- 4500;
-		Fin Si
-	Fin si
+        // Paso 7: Mostrar los datos del trabajador y su sueldo semanal
+        Escribir "Nombre: ", nombre
+        Escribir "Edad: ", edad
+        Escribir "Horas trabajadas totales: ", horasTotales
+        Escribir "Sueldo semanal: ", sueldoSemanal
 
-	costoTotal = Personas * costoPorPersona;
+    Fin Para
 
-	Escribir "El valor total del banquete es de: $ ", costoTotal , " pesos";
-	Escribir "para " , Personas , " personas";
-
-FinProceso
+Fin Proceso
