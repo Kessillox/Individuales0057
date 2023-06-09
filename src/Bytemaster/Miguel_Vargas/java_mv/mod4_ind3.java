@@ -1,8 +1,9 @@
 package Bytemaster.Miguel_Vargas.java_mv;
+import java.util.Scanner;
 
 public class mod4_ind3 {
     public static void main(String[] args) {
-        scanner scanner = new scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Ingrese el número de personas: ");
         int numeropersonas = scanner.nextInt();
