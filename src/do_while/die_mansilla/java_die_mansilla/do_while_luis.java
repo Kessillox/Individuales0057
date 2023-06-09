@@ -1,4 +1,4 @@
-package do_while.luis_sepulveda.java_luis_sepulveda;
+package do_while.die_mansilla.java_die_mansilla;
 
 public class do_while_luis {
     private static void doWhile() throws InterruptedException {
