@@ -61,10 +61,10 @@ public class TrabajoGrupal4 {
                 System.out.println("El usuario ingresado es\n" +
                         "Nombre: " + nombre + "\n" +
                         "Fecha de Nacimiento: " + diaNac + "/" + mesNac + "/" + anioNac + "\n" +
-                        "Run: " + run +
-                        "Nombre Usuario: " + nomUser +
-                        "Direccion: " + direccion +
-                        "Telefono: " + telefono +
+                        "Run: " + run + "\n" +
+                        "Perfil: " + nomUser + "\n" +
+                        "Direccion: " + direccion + "\n" +
+                        "Telefono: " + telefono + "\n" +
                         "Cantidad de Empleados: " + cantEmpleados);
 
             } else if (tipoUser == 2){
@@ -82,9 +82,9 @@ public class TrabajoGrupal4 {
                 System.out.println("El usuario ingresado es\n" +
                         "Nombre: " + nombre + "\n" +
                         "Fecha de Nacimiento: " + diaNac + "/" + mesNac + "/" + anioNac + "\n" +
-                        "Run: " + run +
-                        "Nombre Usuario: " + nomUser +
-                        "Años de Experiencia: " + anioExp +
+                        "Run: " + run + "\n" +
+                        "Perfil: " + nomUser + "\n" +
+                        "Años de Experiencia: " + anioExp + "\n" +
                         "Departamento: " + departamento);
 
             } else if (tipoUser == 3){
@@ -102,9 +102,9 @@ public class TrabajoGrupal4 {
                 System.out.println("El usuario ingresado es\n" +
                         "Nombre: " + nombre + "\n" +
                         "Fecha de Nacimiento: " + diaNac + "/" + mesNac + "/" + anioNac + "\n" +
-                        "Run: " + run +
-                        "Nombre Usuario: " + nomUser +
-                        "Funcion: " + funcion +
+                        "Run: " + run + "\n" +
+                        "Perfil: " + nomUser + "\n" +
+                        "Funcion: " + funcion + "\n" +
                         "Nombre Superior: " + nomSuperior);
 
             }
