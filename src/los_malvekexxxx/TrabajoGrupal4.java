@@ -6,14 +6,11 @@ public class TrabajoGrupal4 {
     public static void main(String [] args){
 
         String nombre;
-        //String fechaNacimiento;
-        //String run;
         int diaNac;
         int mesNac;
         int anioNac;
         String run;
         int tipoUser;
-        int contador = 0;
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Por favor indica la cantidad de usuarios a ingresar: ");
