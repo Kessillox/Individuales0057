@@ -1,6 +1,6 @@
 package do_while;
 
-public class DoWhile {
+public class do_while_luis {
     private static void doWhile() throws InterruptedException {
         // iniciamos la variable contador en 0.
         int contador = 0;
