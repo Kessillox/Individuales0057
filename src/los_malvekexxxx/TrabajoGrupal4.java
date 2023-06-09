@@ -12,13 +12,13 @@ public class TrabajoGrupal4 {
         int mesNac;
         int anioNac;
         String run;
-        int contador = 1;
+        int contador = 0;
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Por favor indica la cantidad de usuarios a ingresar: ");
         int cantUsuarios = sc.nextInt();
 
-        do {
+        while (cantUsuarios > 0) {
 
             System.out.println("Ingresa el nombre del Usuario");
             nombre = sc.next();
@@ -34,16 +34,17 @@ public class TrabajoGrupal4 {
             System.out.println("Ingresa el RUN del Usuario (Sin puntos ni guion)");
             run = sc.next();
 
+            System.out.println("Indica el tipo de Usuario:\n" +
+                    "Nombre: " + nombre + "\n" +
+                    "Fecha de Nacimiento: " + diaNac + "/" + mesNac + "/" + anioNac + "\n" +
+                    "Run: " + run);
 
-            System.out.println("El usuario ingresado es" +
-                    "Nombre: "+nombre+
-                    "Fecha de Nacimiento"+diaNac+"/"+mesNac+"/"+anioNac+
-                    "Run: "+run);
+            System.out.println("El usuario ingresado es\n" +
+                    "Nombre: " + nombre + "\n" +
+                    "Fecha de Nacimiento: " + diaNac + "/" + mesNac + "/" + anioNac + "\n" +
+                    "Run: " + run);
 
-            contador++;
-        }while (contador > cantUsuarios);
-
-
-
+            cantUsuarios--;
+        }
     }
 }
