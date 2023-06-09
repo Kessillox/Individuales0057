@@ -1,4 +1,4 @@
-package Bytemaster.Miguel_Vargas.java_mv;
+package bytemaster.miguel_vargas.java_mv;
 import java.util.Scanner;
 
 public class mod4_ind3 {
