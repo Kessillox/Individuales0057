@@ -2,10 +2,11 @@ Algoritmo individual3
 		Definir numPersonas, costoPorPersona, costoTotal Como Entero
 		Definir sc Como Entero
 		
-		Escribir "Ingrese el número de personas: "
+		Escribir "Ingrese el nï¿½mero de personas: "
 		Leer numPersonas
 		
 		Si (numPersonas > 200 Y numPersonas <= 300) Entonces
+
 			costoPorPersona <- 4200
 		FinSi
 		
@@ -23,7 +24,7 @@ Algoritmo individual3
 				costoTotal <- costoPorPersona * numPersonas
 				
 				
-				Escribir "El costo total del evento para ", numPersonas, " personas será de $", costoTotal
+				Escribir "El costo total del evento para ", numPersonas, " personas serï¿½ de $", costoTotal
 				
 FinAlgoritmo
 
