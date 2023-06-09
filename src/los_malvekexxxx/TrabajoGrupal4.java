@@ -6,14 +6,11 @@ public class TrabajoGrupal4 {
     public static void main(String [] args){
 
         String nombre;
-        //String fechaNacimiento;
-        //String run;
         int diaNac;
         int mesNac;
         int anioNac;
         String run;
         int tipoUser;
-        int contador = 0;
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Por favor indica la cantidad de usuarios a ingresar: ");
@@ -61,10 +58,10 @@ public class TrabajoGrupal4 {
                 System.out.println("El usuario ingresado es\n" +
                         "Nombre: " + nombre + "\n" +
                         "Fecha de Nacimiento: " + diaNac + "/" + mesNac + "/" + anioNac + "\n" +
-                        "Run: " + run +
-                        "Nombre Usuario: " + nomUser +
-                        "Direccion: " + direccion +
-                        "Telefono: " + telefono +
+                        "Run: " + run + "\n" +
+                        "Perfil: " + nomUser + "\n" +
+                        "Direccion: " + direccion + "\n" +
+                        "Telefono: " + telefono + "\n" +
                         "Cantidad de Empleados: " + cantEmpleados);
 
             } else if (tipoUser == 2){
@@ -82,9 +79,9 @@ public class TrabajoGrupal4 {
                 System.out.println("El usuario ingresado es\n" +
                         "Nombre: " + nombre + "\n" +
                         "Fecha de Nacimiento: " + diaNac + "/" + mesNac + "/" + anioNac + "\n" +
-                        "Run: " + run +
-                        "Nombre Usuario: " + nomUser +
-                        "Años de Experiencia: " + anioExp +
+                        "Run: " + run + "\n" +
+                        "Perfil: " + nomUser + "\n" +
+                        "Años de Experiencia: " + anioExp + "\n" +
                         "Departamento: " + departamento);
 
             } else if (tipoUser == 3){
@@ -102,9 +99,9 @@ public class TrabajoGrupal4 {
                 System.out.println("El usuario ingresado es\n" +
                         "Nombre: " + nombre + "\n" +
                         "Fecha de Nacimiento: " + diaNac + "/" + mesNac + "/" + anioNac + "\n" +
-                        "Run: " + run +
-                        "Nombre Usuario: " + nomUser +
-                        "Funcion: " + funcion +
+                        "Run: " + run + "\n" +
+                        "Perfil: " + nomUser + "\n" +
+                        "Funcion: " + funcion + "\n" +
                         "Nombre Superior: " + nomSuperior);
 
             }
