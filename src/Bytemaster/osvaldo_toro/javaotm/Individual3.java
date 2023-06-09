@@ -2,7 +2,7 @@ package Bytemaster.osvaldo_toro.javaotm;
 
 import java.util.Scanner;
 
-public class CostoPlato {
+public class Individual3 {
     public static void main(String[] args) {
         // Paso 1: Leer el número de personas
         Scanner scanner = new Scanner(System.in);
