@@ -1,4 +1,4 @@
-package Bytemaster.alex.java_ac;
+package bytemasterfelipe.alex.java_ac;
 
 import java.util.Scanner;
 public class Individual7 {

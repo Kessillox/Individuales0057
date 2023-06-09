@@ -1,7 +1,6 @@
-package Bytemaster.francisco_molina.java_fvm;
-
+package bytemasterfelipe.osvaldo_toro.javaotm;
 import java.util.Scanner;
-public class Individual_7 {
+public class Individual7 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

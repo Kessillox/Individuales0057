@@ -1,4 +1,4 @@
-package Bytemaster.osvaldo_toro.javaotm;
+package bytemasterfelipe.osvaldo_toro.javaotm;
 
 import java.util.Scanner;
 

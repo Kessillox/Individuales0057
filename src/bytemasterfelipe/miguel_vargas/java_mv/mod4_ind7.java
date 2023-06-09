@@ -1,4 +1,4 @@
-package Bytemaster.miguel_vargas.java_mv;
+package bytemasterfelipe.miguel_vargas.java_mv;
 
 import java.util.Scanner;
 
