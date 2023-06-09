@@ -1,8 +1,12 @@
-package los_malvekexxxx.oscaraguilera.javaoa;
+package los_malvekexxxx.oscar_aguilera.java_oa;
 
 import java.util.Scanner;
 public class EjecicioVentas {
+
+    /* Tarea Individual 1 */
+
     public static void main(String[] args) {
+
         /* Inicializamos las variables para contabizar el valor de los platos y el total del evento*/
         /* Se define por defecto el valor de $4.500 por plato*/
         int precioPlato = 4500;
