@@ -1,6 +1,6 @@
 Algoritmo modulo4_individual7
 
-	definir valorHora,n,edad,horasTrabajadas, sueldoSemanal como entero;
+	definir valorHora,n,edad,horasTrabajadas, horasTrabajadas1,sueldoSemanal como entero;
 	definir nombre como cadena;
 
 	escribir "Ingrese valor de hora trabajada";
@@ -13,7 +13,7 @@ Algoritmo modulo4_individual7
 
 	campos[0]="Nombre: ";
 	campos[1]="Edad: ";
-	campos[2]="Horas diarias trabajadas: ";
+	campos[2]="Horas trabajadas: ";
 
 	Para i<-0 Hasta n-1 Con Paso  1 Hacer
 
@@ -25,8 +25,20 @@ Algoritmo modulo4_individual7
 		leer edad;
 		trabajadores[i,1] = ConvertirATexto(edad);
 
-		escribir "Ingrese horas trabajadas diarias de trabajador ", ConvertirATexto(i+1);
+		escribir "Ingrese horas trabajadas día 1 del trabajador ", ConvertirATexto(i+1);
 		leer horasTrabajadas;
+		escribir "Ingrese horas trabajadas día 2 del trabajador ", ConvertirATexto(i+1);
+		leer horasTrabajadas1;
+		horasTrabajadas = horasTrabajadas1+horasTrabajadas;
+		escribir "Ingrese horas trabajadas día 3 del trabajador ", ConvertirATexto(i+1);
+		leer horasTrabajadas1;
+		horasTrabajadas = horasTrabajadas1+horasTrabajadas;
+		escribir "Ingrese horas trabajadas día 4 del trabajador ", ConvertirATexto(i+1);
+		leer horasTrabajadas1;
+		horasTrabajadas = horasTrabajadas1+horasTrabajadas;
+		escribir "Ingrese horas trabajadas día 5 del trabajador ", ConvertirATexto(i+1);
+		leer horasTrabajadas1;
+		horasTrabajadas = horasTrabajadas1+horasTrabajadas;
 		trabajadores[i,2] = ConvertirATexto(horasTrabajadas);
 
 
@@ -44,8 +56,8 @@ Algoritmo modulo4_individual7
 
 
 			Fin Para
-			horasTrabajadas = ConvertirANumero(trabajadores[j,2])*5;
-			sueldoSemanal = horasTrabajadas*valorHora;
+
+			sueldoSemanal =  ConvertirANumero(trabajadores[j,2])*valorHora;
 			escribir "Sueldo semanal: ",sueldoSemanal;
 			escribir "";
 		Fin Para

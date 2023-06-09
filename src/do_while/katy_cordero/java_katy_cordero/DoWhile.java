@@ -1,6 +1,6 @@
-package do_while.luis_sepulveda.java_luis_sepulveda;
+package do_while.katy_cordero.java_katy_cordero;
 
-public class do_while_luis {
+public class DoWhile {
     private static void doWhile() throws InterruptedException {
         // iniciamos la variable contador en 0.
         int contador = 0;
