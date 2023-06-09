@@ -1,0 +1,24 @@
+1.- Algoritmos - Ejercicio Individual 1
+
+
+1ero:
+
+Cómo buscar información en internet?
+Enciende tu dispositivo movil o computador y abre el navegador de internet.
+En la barra de búsqueda del navegador, escribe la pregunta o tema que deseas buscar.
+Presiona la tecla "Enter" o haz clic en el botón de "Buscar".
+El navegador te mostrará una lista de resultados relacionados con tu búsqueda.
+Revisa los títulos y descripciones de cada resultado para determinar cuál se acerca más a la información buscada.
+Haz clic en el resultado que te interesa para acceder a la página web correspondiente.
+Una vez en la página, leer.
+
+
+2do:
+
+INICIO
+  Encender el dispositivo movil o computadora
+  Abrir el navegador de internet
+  Escribir la pregunta o tema en la barra de búsqueda
+  Presionar "Enter" o hacer clic en el botón de "Buscar"
+  Revisar los títulos y descripciones de los resultados
+  Seleccionar el resultado más relevante
