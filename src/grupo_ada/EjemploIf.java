@@ -1,4 +1,4 @@
-package Grupo_Ada;
+package grupo_ada;
 
 import java.util.Scanner;
 
