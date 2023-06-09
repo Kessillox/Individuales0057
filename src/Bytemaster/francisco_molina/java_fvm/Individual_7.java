@@ -1,8 +1,8 @@
 package bytemaster.francisco_molina.java_fvm;
 
 import java.util.Scanner;
-public class Individual7 {
 
+public class Individual_7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -43,4 +43,5 @@ public class Individual7 {
 
         sc.close();
     }
+
 }
