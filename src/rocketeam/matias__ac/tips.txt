@@ -2,3 +2,4 @@ git add .
 git commit -m "indis_mac"
 git pull
 git push
+git push --set-upstream origin matias_ac
