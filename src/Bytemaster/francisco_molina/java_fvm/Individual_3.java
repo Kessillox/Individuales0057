@@ -1,7 +1,8 @@
-package Bytemaster.Miguel_Vargas.java_mv;
+package bytemaster.francisco_molina.java_fvm;
+
 import java.util.Scanner;
 
-public class mod4_ind3 {
+public class Individual_3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
