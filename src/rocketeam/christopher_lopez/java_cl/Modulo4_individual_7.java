@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Modulo4_individual_7 {
 
     public static void main(String[] args) {
-        int valorHora,n,edad,horasTrabajadas, sueldoSemanal;
+        int valorHora,n,edad,horasTrabajadas, horasTrabajadas1, sueldoSemanal;
         sueldoSemanal = 0;
         String nombre;
 
@@ -32,8 +32,20 @@ public class Modulo4_individual_7 {
             edad = sc.nextInt();
             trabajadores[i][1] =  Integer.toString(edad) ;
 
-            System.out.println("Ingrese horas trabajadas diarias de trabajador "+(i+1));
+            System.out.println("Ingrese horas trabajadas dia 1 de trabajador "+(i+1));
             horasTrabajadas = sc.nextInt();
+            System.out.println("Ingrese horas trabajadas dia 2 de trabajador "+(i+1));
+            horasTrabajadas1 = sc.nextInt();
+            horasTrabajadas = horasTrabajadas1 + horasTrabajadas;
+            System.out.println("Ingrese horas trabajadas dia 3 de trabajador "+(i+1));
+            horasTrabajadas1 = sc.nextInt();
+            horasTrabajadas = horasTrabajadas1 + horasTrabajadas;
+            System.out.println("Ingrese horas trabajadas dia 4 de trabajador "+(i+1));
+            horasTrabajadas1 = sc.nextInt();
+            horasTrabajadas = horasTrabajadas1 + horasTrabajadas;
+            System.out.println("Ingrese horas trabajadas dia 5 de trabajador "+(i+1));
+            horasTrabajadas1 = sc.nextInt();
+            horasTrabajadas = horasTrabajadas1 + horasTrabajadas;
             trabajadores[i][2] = Integer.toString(horasTrabajadas);
 
         }
@@ -52,8 +64,8 @@ public class Modulo4_individual_7 {
 
             }
 
-            horasTrabajadas = Integer.parseInt(trabajadores[j][2])*5;
-            sueldoSemanal = horasTrabajadas*valorHora;
+
+            sueldoSemanal = Integer.parseInt(trabajadores[j][2]) *valorHora;
             System.out.println("Sueldo semanal: "+sueldoSemanal);
             System.out.println("\n");
         }
