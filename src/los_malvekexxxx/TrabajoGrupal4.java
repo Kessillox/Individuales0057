@@ -15,11 +15,11 @@ public class TrabajoGrupal4 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Por favor indica la cantidad de usuarios a ingresar: ");
         int cantUsuarios = sc.nextInt();
-
+        sc.nextLine();
         while (cantUsuarios > 0) {
 
             System.out.println("Ingresa el nombre del Usuario");
-            nombre = sc.next();
+            nombre = sc.nextLine();
 
             System.out.println("Ingresa la fecha de nacimiento del Usuario");
             System.out.println("Dia: ");
@@ -37,7 +37,7 @@ public class TrabajoGrupal4 {
                     "2 - Profesional.\n" +
                     "3 - Adminitrativo.\n");
             tipoUser = sc.nextInt();
-
+            sc.nextLine();
 
             if (tipoUser == 1){
 
@@ -47,14 +47,17 @@ public class TrabajoGrupal4 {
                 int cantEmpleados;
 
                 System.out.println("Ingresa la direccion del Usuario");
-                direccion = sc.next();
+                direccion = sc.nextLine();
+
 
                 System.out.println("Ingresa el telefono del Usuario");
                 telefono = sc.nextInt();
 
+
                 System.out.println("Ingresa la cantidad de empleados del Usuario");
                 cantEmpleados = sc.nextInt();
-
+                System.out.println("************************************************");
+                System.out.println("************************************************");
                 System.out.println("El usuario ingresado es\n" +
                         "Nombre: " + nombre + "\n" +
                         "Fecha de Nacimiento: " + diaNac + "/" + mesNac + "/" + anioNac + "\n" +
@@ -75,7 +78,8 @@ public class TrabajoGrupal4 {
 
                 System.out.println("Ingresa el departamento del Usuario");
                 departamento = sc.next();
-
+                System.out.println("************************************************");
+                System.out.println("************************************************");
                 System.out.println("El usuario ingresado es\n" +
                         "Nombre: " + nombre + "\n" +
                         "Fecha de Nacimiento: " + diaNac + "/" + mesNac + "/" + anioNac + "\n" +
@@ -95,7 +99,8 @@ public class TrabajoGrupal4 {
 
                 System.out.println("Ingresa el Nombre de Superior del Usuario");
                 nomSuperior = sc.next();
-
+                System.out.println("************************************************");
+                System.out.println("************************************************");
                 System.out.println("El usuario ingresado es\n" +
                         "Nombre: " + nombre + "\n" +
                         "Fecha de Nacimiento: " + diaNac + "/" + mesNac + "/" + anioNac + "\n" +
