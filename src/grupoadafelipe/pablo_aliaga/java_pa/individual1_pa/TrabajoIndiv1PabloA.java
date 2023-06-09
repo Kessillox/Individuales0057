@@ -1,4 +1,4 @@
-package Grupo_Ada.pablo_aliaga.java_pa.individual1_pa;
+package grupoadafelipe.pablo_aliaga.java_pa.individual1_pa;
 
 public class TrabajoIndiv1PabloA {
     public static void main(String[] args) {

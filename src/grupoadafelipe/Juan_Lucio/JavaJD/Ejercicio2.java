@@ -1,4 +1,4 @@
-package Grupo_Ada.Juan_Lucio.JavaJD;
+package grupoadafelipe.Juan_Lucio.JavaJD;
 
 import java.util.Scanner;
 public class Ejercicio2 {
