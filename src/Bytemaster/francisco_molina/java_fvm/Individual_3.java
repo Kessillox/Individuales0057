@@ -1,4 +1,4 @@
-package bytemaster.francisco_molina.java_fvm;
+package Bytemaster.francisco_molina.java_fvm;
 
 import java.util.Scanner;
 
