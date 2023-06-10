@@ -1,4 +1,4 @@
-package codingclubfelipe.Clase_2023_06_06;
+package codingclub.Clase_2023_06_06;
 
 import java.util.Scanner;
 
