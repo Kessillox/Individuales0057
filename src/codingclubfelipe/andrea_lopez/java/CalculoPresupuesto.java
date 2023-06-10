@@ -1,8 +1,8 @@
-package codingclubfelipe.AndreaLopez.javacodigos;
+package codingclubfelipe.andrea_lopez.java;
 
 import java.util.Scanner;
 
-public class calculoPresupuesto {
+public class CalculoPresupuesto {
 
     public static int presupuesto (int cantidadPersonas, int precioPlato) {
         int totalPresupuesto = cantidadPersonas * precioPlato;

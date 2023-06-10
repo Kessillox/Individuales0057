@@ -1,8 +1,8 @@
-package codingclubfelipe.AndreaLopez.javacodigos;
+package codingclubfelipe.andrea_lopez.java;
 
 import java.util.Scanner;
 
-public class agregaUsuarios {
+public class AgregaUsuarios {
 
     public static void main (String[] args){
 
