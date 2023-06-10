@@ -1,4 +1,4 @@
-package codingclubfelipe.andrea_lopez.java;
+package codingclubfelipe.andrealopez.java;
 
 import java.util.Scanner;
 
