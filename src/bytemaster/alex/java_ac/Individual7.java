@@ -1,7 +1,7 @@
-package bytemasterfelipe.francisco_molina.java_fvm;
+package bytemaster.alex.java_ac;
 
 import java.util.Scanner;
-public class Individual_7 {
+public class Individual7 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

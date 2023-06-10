@@ -1,4 +1,4 @@
-package bytemasterfelipe.osvaldo_toro.javaotm;
+package bytemaster.osvaldo_toro.javaotm;
 import java.util.Scanner;
 public class Individual7 {
 
