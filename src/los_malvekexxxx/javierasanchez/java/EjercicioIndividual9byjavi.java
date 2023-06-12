@@ -1,7 +1,7 @@
 package los_malvekexxxx.javierasanchez.java;
 import java.util.Scanner;
 
-public class EjercicioIndividual9 {
+public class EjercicioIndividual9byjavi {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
 
