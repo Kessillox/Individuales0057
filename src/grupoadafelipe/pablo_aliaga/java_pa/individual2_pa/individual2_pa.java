@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Login {
+public class individual2_pa {
     public static void main(String[] args) {
         System.out.println("Bienvenido estimado usuario");
         System.out.println("******************** MAC OS 14 SONOMA AND GOMORRAH ********************");
