@@ -1,0 +1,33 @@
+Algoritmo TareaIndividual7
+    Definir cantidad_usuario, dias_semanales, precio_por_hora como Entero;
+    Definir edad, horas_trabajadas, dinero_semanal como Real;
+	Definir nombre Como Caracter;
+	
+	
+    Escribir "Ingrese la cantidad de usuarios para agregar:";
+    Leer cantidad_usuario;
+	
+    Escribir "Ingrese el monto pagado por hora trabajada:";
+    Leer precio_por_hora;
+	
+    Mientras cantidad_usuario > 0 Hacer
+        Escribir "Ingrese el nombre del usuario:";
+        Leer nombre;
+		
+        Escribir "Ingrese la edad del usuario:";
+        Leer edad;
+		
+        Escribir "Ingrese la cantidad de horas trabajadas del usuario:";
+        Leer horas_trabajadas;
+		
+        dinero_semanal = horas_trabajadas * precio_por_hora;
+		
+        Escribir "************************************************";
+        Escribir "************************************************";
+        Escribir "El trabajador(a) " , nombre , " cuya edad es " , edad;
+        Escribir "Trabajó " , horas_trabajadas , " horas en la semana";
+        Escribir "Correspondiéndole un monto de $" , dinero_semanal , " pesos como pago semanal";
+		
+        cantidad_usuario = cantidad_usuario - 1;
+    Fin Mientras
+Fin Algoritmo

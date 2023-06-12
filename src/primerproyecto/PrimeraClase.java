@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class PrimeraClase {
     public static void main(String[] args) {
         //comentario por culpa del pablo
+        //comentario por culpa de Carlos
         String variableA;
         char caracter;
         Integer numerosEnteros;
