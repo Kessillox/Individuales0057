@@ -1,4 +1,4 @@
-package rocketeam.Joshua_Vargas.jv_java;
+package rocketeam.joshua_vargas.jv_java;
 
 import java.util.Scanner;
 
