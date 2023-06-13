@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PCR {
+public class individual4_pa {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
