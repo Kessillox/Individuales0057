@@ -1,108 +1,117 @@
 package los_malvekexxxx;
 
-
 import java.util.Scanner;
 public class TrabajoGrupal4 {
 
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+    public static void main(String [] args){
 
-        // Solicitar datos al usuario
-        System.out.print("Ingrese su RUT: ");
-        int rut = input.nextInt();
+        String nombre;
+        int diaNac;
+        int mesNac;
+        int anioNac;
+        String run;
+        int tipoUser;
 
-        System.out.print("Ingrese su nombre: ");
-        String nombres = input.next();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Por favor indica la cantidad de usuarios a ingresar: ");
+        int cantUsuarios = sc.nextInt();
+        sc.nextLine();
+        while (cantUsuarios > 0) {
 
-        System.out.print("Ingrese su apellido: ");
-        String apellidos = input.next();
+            System.out.println("Ingresa el nombre del Usuario");
+            nombre = sc.nextLine();
 
-        System.out.print("Ingrese su teléfono: ");
-        String telefono = input.next();
+            System.out.println("Ingresa la fecha de nacimiento del Usuario");
+            System.out.println("Dia: ");
+            diaNac = sc.nextInt();
+            System.out.println("Mes: ");
+            mesNac = sc.nextInt();
+            System.out.println("Año: ");
+            anioNac = sc.nextInt();
 
-        System.out.print("Ingrese su AFP: ");
-        String afp = input.next();
+            System.out.println("Ingresa el RUN del Usuario (Sin puntos ni guion)");
+            run = sc.next();
 
-        System.out.print("Ingrese su sistema de salud (1 para Fonasa, 2 para Isapre): ");
-        int sistemaSalud = input.nextInt();
+            System.out.println("Indica el tipo de Usuario:\n" +
+                    "1 - Cliente.\n" +
+                    "2 - Profesional.\n" +
+                    "3 - Adminitrativo.\n");
+            tipoUser = sc.nextInt();
+            sc.nextLine();
 
-        System.out.print("Ingrese su dirección: ");
-        input.nextLine(); // nextLine Soporta datos con espacios
-        String direccion = input.nextLine(); //Evita que se junte la entrada al formulario
+            if (tipoUser == 1){
 
-        System.out.print("Ingrese su comuna: ");
-        String comuna = input.nextLine();
+                String nomUser = "Cliente";
+                String direccion;
+                int telefono;
+                int cantEmpleados;
 
-        System.out.print("Ingrese su edad: ");
-        int edad = input.nextInt();
+                System.out.println("Ingresa la direccion del Usuario");
+                direccion = sc.nextLine();
 
-        // Validar datos ingresados
-        if (rut <= 10000000) {
-            System.out.println("Error: El RUT ingresado no es válido.");
-            return;
+
+                System.out.println("Ingresa el telefono del Usuario");
+                telefono = sc.nextInt();
+
+
+                System.out.println("Ingresa la cantidad de empleados del Usuario");
+                cantEmpleados = sc.nextInt();
+                System.out.println("************************************************");
+                System.out.println("************************************************");
+                System.out.println("El usuario ingresado es\n" +
+                        "Nombre: " + nombre + "\n" +
+                        "Fecha de Nacimiento: " + diaNac + "/" + mesNac + "/" + anioNac + "\n" +
+                        "Run: " + run + "\n" +
+                        "Perfil: " + nomUser + "\n" +
+                        "Direccion: " + direccion + "\n" +
+                        "Telefono: " + telefono + "\n" +
+                        "Cantidad de Empleados: " + cantEmpleados);
+
+            } else if (tipoUser == 2){
+
+                String nomUser = "Profesional";
+                int anioExp;
+                String departamento;
+
+                System.out.println("Ingresa los años de experiencia del Usuario");
+                anioExp = sc.nextInt();
+
+                System.out.println("Ingresa el departamento del Usuario");
+                departamento = sc.next();
+                System.out.println("************************************************");
+                System.out.println("************************************************");
+                System.out.println("El usuario ingresado es\n" +
+                        "Nombre: " + nombre + "\n" +
+                        "Fecha de Nacimiento: " + diaNac + "/" + mesNac + "/" + anioNac + "\n" +
+                        "Run: " + run + "\n" +
+                        "Perfil: " + nomUser + "\n" +
+                        "Años de Experiencia: " + anioExp + "\n" +
+                        "Departamento: " + departamento);
+
+            } else if (tipoUser == 3){
+
+                String nomUser = "Administrativo";
+                String funcion;
+                String nomSuperior;
+
+                System.out.println("Ingresa la funcion del Usuario");
+                funcion = sc.next();
+
+                System.out.println("Ingresa el Nombre de Superior del Usuario");
+                nomSuperior = sc.next();
+                System.out.println("************************************************");
+                System.out.println("************************************************");
+                System.out.println("El usuario ingresado es\n" +
+                        "Nombre: " + nombre + "\n" +
+                        "Fecha de Nacimiento: " + diaNac + "/" + mesNac + "/" + anioNac + "\n" +
+                        "Run: " + run + "\n" +
+                        "Perfil: " + nomUser + "\n" +
+                        "Funcion: " + funcion + "\n" +
+                        "Nombre Superior: " + nomSuperior);
+
+            }
+
+            cantUsuarios--;
         }
-
-        if (nombres.isEmpty()) {
-            System.out.println("Error: Debe ingresar sus nombres.");
-            return;
-        }
-
-        if (apellidos.isEmpty()) {
-            System.out.println("Error: Debe ingresar sus apellidos.");
-            return;
-        }
-
-        if (telefono.length() > 15) {
-            System.out.println("Error: El número de teléfono ingresado no es válido.");
-            return;
-        }
-
-        if (afp.isEmpty()) {
-            System.out.println("Error: Debe ingresar su AFP.");
-            return;
-        }
-
-        if (sistemaSalud != 1 && sistemaSalud != 2) {
-            System.out.println("Error: El sistema de salud ingresado no es válido.");
-            return;
-        }
-
-        if (direccion.length() > 50) {
-            System.out.println("Error: La dirección ingresada no es válida.");
-            return;
-        }
-
-        if (comuna.isEmpty()) {
-            System.out.println("Error: Debe ingresar su comuna.");
-            return;
-        }
-
-        if (edad >= 120) {
-            System.out.println("Error: La edad ingresada no es válida.");
-            return;
-        }
-        System.out.println("");
-        System.out.println("************************************************");
-        System.out.println("************************************************");
-        System.out.println("LOS DATOS DEL USUARIO SON");
-        System.out.println("");
-
-        // Desplegar datos del cliente
-        System.out.println(  "RUT: " + rut + "\n" +
-                "Nombre: " + nombres + "\n" +
-                "Apellido: " + apellidos + "\n" +
-                "Teléfono: " + telefono + "\n" +
-                "AFP: " + afp + "\n" +
-                "Sistema de salud: " + (sistemaSalud == 1 ? "Fonasa" : "Isapre") + "\n" +
-                "Dirección: " + direccion + "\n" +
-                "Comuna: " + comuna + "\n" +
-                "Edad: " + edad + "\n");
-
-
-
-
-
-
-
     }
 }
