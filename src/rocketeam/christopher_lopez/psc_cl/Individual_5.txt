@@ -1,0 +1,18 @@
+Individual 5
+Christopher López
+
+Enunciado:
+“Una persona debe permanecer 14 días en observación únicamente si ha salido del país.
+La persona se hará el PCR si quiere volver a la normalidad.
+Dado que ni la persona ha salido del país ni presenta contagios cercanos, no tendrá que hacer
+cuarentena ni se le hará el PCR.”
+
+
+Desarrollo:
+P = Una persona ha salido del país
+Q = Debe permanecer 14 días en observación
+R = Persona quiere volver a la normalidad
+S = Persona se hará PCR
+T = Persona presenta contagios cercanos
+
+(P → Q) ∧ (R → S) ∧ (¬P ∧ ¬T → ¬Q ∧ ¬S)
