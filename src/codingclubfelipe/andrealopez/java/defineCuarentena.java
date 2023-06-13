@@ -1,4 +1,4 @@
-package codingclub.andrealopez.java;
+package codingclubfelipe.andrealopez.java;
 
 public class defineCuarentena {
     /*Considere el siguiente enunciado. Determine las unidades al mínimo nivel de detalle, y expréselas
