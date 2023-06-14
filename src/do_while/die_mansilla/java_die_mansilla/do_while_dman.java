@@ -1,6 +1,6 @@
 package do_while.die_mansilla.java_die_mansilla;
 
-public class do_while_luis {
+public class do_while_dman {
     private static void doWhile() throws InterruptedException {
         // iniciamos la variable contador en 0.
         int contador = 0;

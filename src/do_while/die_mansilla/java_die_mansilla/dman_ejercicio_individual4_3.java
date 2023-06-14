@@ -2,7 +2,7 @@ package do_while.die_mansilla.java_die_mansilla;
 
 import java.util.Scanner;
 
-public class ejercicio_individual4_3 {
+public class dman_ejercicio_individual4_3 {
     public static void main(String[] args) {
         int costo_persona = 4500;
         int num_personas;
