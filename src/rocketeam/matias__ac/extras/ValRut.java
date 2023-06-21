@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ValRut {
 
- public static boolean ValRut(String rut){
+ public static boolean ValiRut(String rut){
   rut = rut.replace(".", "").replace("-", "");
 
   if (rut.length() < 2){
@@ -33,7 +33,7 @@ public class ValRut {
   Scanner scanner = new Scanner(System.in);
   System.out.print("Ingrese Rut: ");
   String rut = scanner.nextLine();
-  boolean esValido = ValRut(rut);
+  boolean esValido = ValiRut(rut);
 
   if (esValido) {
    System.out.print("El Rut " + rut + " es válido");
