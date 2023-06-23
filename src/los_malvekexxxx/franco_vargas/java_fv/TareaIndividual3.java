@@ -1,5 +1,7 @@
 package los_malvekexxxx.franco_vargas.java_fv;
 
+import java.util.Scanner;
+
 public class TareaIndividual3 {
     public static void main(String[] args) {
         int costoPorPersona, numeroPersonas;
