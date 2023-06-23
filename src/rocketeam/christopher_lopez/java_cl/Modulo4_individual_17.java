@@ -24,7 +24,8 @@ public class Modulo4_individual_17 {
             if (Character.isLetter(caracter) && caracter == 'a' || caracter == 'e' || caracter == 'i' || caracter == 'o' || caracter == 'u' ||
                     caracter == 'á' || caracter == 'é' || caracter == 'í' || caracter == 'ó' || caracter == 'ú' || caracter == 'ü'){
                 vocales++;
-            }else{
+            }else if(Character.isLetter(caracter) && caracter != 'a' && caracter !=  'e' && caracter !=  'i' && caracter !=  'o' && caracter !=  'u' &&
+                    caracter !=  'á' && caracter !=  'é' && caracter !=  'í' && caracter !=  'ó' && caracter !=  'ú' && caracter !=  'ü'){
                 consonantes++;
             }
 
