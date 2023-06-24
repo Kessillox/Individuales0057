@@ -1,21 +1,11 @@
 package do_while.katy_cordero.java_katy_cordero;
-<<<<<<< HEAD
 
-import java.util.Scanner;
-
-import static java.lang.System.in;
-import static java.lang.System.out;
-
-public class individual15 {
-
-
-=======
 import java.util.Scanner;
 
 import static java.lang.System.*;
 
 public class individual15 {
->>>>>>> d213f4511bbf4dab5f5b8bd0128b5787e4c5171c
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(in);
 
@@ -44,9 +34,5 @@ public class individual15 {
         }
         out.println("El resultado es: " + resultado);
     }
-<<<<<<< HEAD
-}
 
-=======
 }
->>>>>>> d213f4511bbf4dab5f5b8bd0128b5787e4c5171c
