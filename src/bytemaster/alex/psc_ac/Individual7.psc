@@ -8,6 +8,7 @@ Algoritmo Individual7
     Escribir "Ingrese la cantidad de trabajadores:"
     Leer cantidadTrabajadores
 
+
     // Paso 3: Repetir por cada trabajador
     Para i = 1 hasta cantidadTrabajadores hacer
         // Paso 4: Leer los datos del trabajador
