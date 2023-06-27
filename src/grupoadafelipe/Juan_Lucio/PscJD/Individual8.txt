@@ -1,0 +1,58 @@
+
+Inicio
+moda <- 0
+electronica <- 0
+telefonia <- 0
+muebles <- 0
+venta <- 0
+ventas_mayores_1000 <- 0
+ventas_entre_500_1000 <- 0
+ventas_menores_igual_500 <- 0
+categoria <- ""
+
+Mientras categoria <> "SALIR" Hacer
+Escribir "Ingrese una categoría (moda, electrónica, telefonía, muebles o SALIR para salir):"
+Leer categoria
+
+r
+Copy code
+Si categoria <> "SALIR" Entonces
+  Escribir "Ingrese el monto de la venta:"
+  Leer venta
+
+  Si venta > 1000 Entonces
+    ventas_mayores_1000 <- ventas_mayores_1000 + 1
+  Sino Si venta > 500 Entonces
+    ventas_entre_500_1000 <- ventas_entre_500_1000 + 1
+  Sino
+    ventas_menores_igual_500 <- ventas_menores_igual_500 + 1
+  Fin Si
+
+  Segun categoria Hacer
+    "moda":
+      moda <- moda + venta
+    "electrónica":
+      electronica <- electronica + venta
+    "telefonía":
+      telefonia <- telefonia + venta
+    "muebles":
+      muebles <- muebles + venta
+  Fin Segun
+Fin Si
+Fin Mientras
+
+total_ventas <- moda + electronica + telefonia + muebles
+
+Escribir "Cantidad de ventas mayores a $1000: ", ventas_mayores_1000
+Escribir "Cantidad de ventas entre $500 y $1000: ", ventas_entre_500_1000
+Escribir "Cantidad de ventas menores o iguales a $500: ", ventas_menores_igual_500
+Escribir "Monto de ventas en moda: ", moda
+Escribir "Monto de ventas en electrónica: ", electronica
+Escribir "Monto de ventas en telefonía: ", telefonia
+Escribir "Monto de ventas en muebles: ", muebles
+Escribir "Monto de ventas total: ", total_ventas
+Fin
+
+--
+
+Juan Lucio
