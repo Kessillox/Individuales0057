@@ -1,4 +1,5 @@
-Proceso CalcularSueldoTrabajadores
+Algoritmo CalcularSueldoTrabajadores
+    // autor Alex Carreño
 
     // Paso 1: Leer el valor a pagar por hora de trabajo
     Escribir "Ingrese el valor a pagar por hora de trabajo:"
@@ -7,7 +8,6 @@ Proceso CalcularSueldoTrabajadores
     // Paso 2: Leer la cantidad de trabajadores
     Escribir "Ingrese la cantidad de trabajadores:"
     Leer cantidadTrabajadores
-
 
     // Paso 3: Repetir por cada trabajador
     Para i = 1 hasta cantidadTrabajadores hacer
@@ -36,5 +36,4 @@ Proceso CalcularSueldoTrabajadores
         Escribir "Sueldo semanal: ", sueldoSemanal
 
     Fin Para
-
-Fin Proceso
+Fin Algoritmo
