@@ -2,7 +2,7 @@ package codingclub.carlosmeneses.modulo4.individual17;
 
 import java.util.Scanner;
 
-public class M4_Indv_17 {
+public class M4_Indv_17_CM {
     public static void main (String[] args) {
         Scanner scanner = new Scanner(System.in);
 
