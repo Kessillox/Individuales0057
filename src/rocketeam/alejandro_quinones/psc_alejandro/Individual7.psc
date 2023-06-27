@@ -36,3 +36,5 @@ Proceso individual7
 	total = hora * (lunes + martes + miercoles + jueves + viernes);
 
 	Escribir "El sueldo del trabajador, ", nombre, " es de: ", total;
+
+

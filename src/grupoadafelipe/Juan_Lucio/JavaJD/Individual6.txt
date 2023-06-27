@@ -1,0 +1,33 @@
+Evalúe las siguientes expresiones lógicas, y determine su valor de verdad. 
+En este punto no debe usar ninguna ayuda tecnológica, solo las tablas de verdad indicadas en el material de apoyo.
+
+a) V1 = ((‘A’ > ‘B’) O (Largo(‘Hola mundo’) = 10))
+b) V2 = No((5 + 2) < 7) Y No((7 > 9) O (3 < 5) Y (4 = 3))
+c) V3 = ((2 * 3 + 5 -7) > (2 * (2 + 5)) O ((10 – 5) < 20)
+
+Una vez que tenga la respuesta de todas ellas, traspáselas a un archivo nuevo de PSeInt, y verifique sus resultados. 
+Para que el proceso sea transparente, en el pseudocódigo, a modo de comentario, debe indicar si contestó correctamente el caso indicado.
+
+a) V1 = ((‘A’ > ‘B’) O (Largo(‘Hola mundo’) = 10))
+La expresión ‘A’ > ‘B’ es falsa, ya que en el orden alfabético la letra ‘B’ viene después de la ‘A’. 
+Por otro lado, Largo(‘Hola mundo’) = 10 es verdadero, ya que la cadena "Hola mundo" tiene una longitud de 10 caracteres. 
+Por lo tanto, la expresión lógica V1 es verdadera porque en OR/O (el resultado es verdadero si alguna expresión es verdadera)
+
+b) V2 = No((5 + 2) < 7) Y No((7 > 9) O (3 < 5) Y (4 = 3))
+Primero se evalúa (5 + 2) < 7, que es falso ya que 5 + 2 = 7 y no es menor que 7. 
+Luego, se evalúa (7 > 9), que es falso. 
+Después, se evalúa (3 < 5) Y (4 = 3), que es falso ya que ambas condiciones deben ser verdaderas para que la expresión sea verdadera. 
+Por lo tanto, la expresión lógica dentro del primer "No" es verdadera (falso negado = verdadero), y la expresión dentro del segundo "No" es falsa. 
+Por lo tanto, la expresión lógica V2 es falsa porque en AND/Y (el resultado es verdadero si ambas expresiones son verdaderas)
+
+c) V3 = ((2 * 3 + 5 -7) > (2 * (2 + 5)) O ((10 – 5) < 20)
+Primero se evalúa 2 * 3 + 5 - 7, que es 6. 
+Luego se evalúa 2 * (2 + 5), que es 14. 
+Después se evalúa (6 > 14), que es falso, y (10 - 5) < 20, que es verdadero. 
+Por lo tanto, la expresión lógica V3 es verdadera porque en OR/O (el resultado es verdadero si alguna expresión es verdadera)
+
+Contesté correctamente los casos indicados.
+
+--
+
+Juan Lucio

@@ -2,7 +2,10 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+
 .idea/
+###iml
+.iml
 
 ### Eclipse ###
 .apt_generated
@@ -13,7 +16,6 @@ out/
 .springBeans
 .sts4-cache
 bin/
-!**/src/main/**/bin/
 !**/src/test/**/bin/
 
 ### NetBeans ###

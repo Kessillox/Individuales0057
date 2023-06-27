@@ -1,0 +1,70 @@
+Una persona debe permanecer 14 días en observación
+  únicamente si ha salido del país.
+La persona se hará el PCR
+  si quiere volver a la normalidad.
+Dado que
+  ni la persona ha salido del país
+  ni presenta contagios cercanos,
+no tendrá que
+  hacer cuarentena
+  ni se le hará el PCR.
+
+enObservacion: Persona debe permanecer 14 días en observación
+haSalidoDelPais: únicamente si ha salido del país. / ni la persona ha salido del país
+hechoPCR: La persona se hará el PCR
+normal: si quiere volver a la normalidad.
+presentaContagiosCercanos: ni presenta contagios cercanos,
+tieneQueHacerCuarentena: hacer cuarentena
+tieneQueHacerPCR: ni se le hará el PCR.
+
+normal <= hechoPCR
+
+tieneQueHacerCuarentena = NOT haSalidoDelPaís AND NOT presentaContagiosCercanos
+tieneQueHacerPCR = NOT haSalidoDelPaís AND NOT presentaContagiosCercanos
+
+Algoritmo medidasCovid
+	Escribir "¿Ha salido del país?"
+	Leer haSalidoDelPais
+	Escribir "¿Se ha hecho el PCR?"
+	Leer hechoPCR
+	Escribir "¿Presenta contagios cercanos?"
+	Leer presentaContagiosCercanos
+	
+	enObservacion<-(haSalidoDelPais)
+	Escribir "¿El paciente está en observación? -> " + cadena enObservacion
+	
+	normal<-((no haSalidoDelPais) o (hechoPCR))
+	Escribir "¿El paciente está normal? -> " + cadena normal
+	
+	tieneQueHacerCuarentena<-no ((no haSalidoDelPais) y (no presentaContagiosCercanos))
+	Escribir "¿El paciente tiene que hacer cuarentena? -> " + cadena tieneQueHacerCuarentena
+	
+	tieneQueHacerPCR<-no ((no haSalidoDelPais) y (no presentaContagiosCercanos))
+	Escribir "¿El paciente tiene que hacer PCR? -> " + cadena tieneQueHacerPCR
+FinAlgoritmo
+
+*** Ejecución Iniciada. ***
+¿Ha salido del país?
+> falso
+¿Se ha hecho el PCR?
+> falso
+¿Presenta contagios cercanos?
+> falso
+¿El paciente está en observación? -> FALSO
+¿El paciente está normal? -> VERDADERO
+¿El paciente tiene que hacer cuarentena? -> FALSO
+¿El paciente tiene que hacer PCR? -> FALSO
+*** Ejecución Finalizada. ***
+
+*** Ejecución Iniciada. ***
+¿Ha salido del país?
+> verdadero
+¿Se ha hecho el PCR?
+> verdadero
+¿Presenta contagios cercanos?
+> verdadero
+¿El paciente está en observación? -> VERDADERO
+¿El paciente está normal? -> VERDADERO
+¿El paciente tiene que hacer cuarentena? -> VERDADERO
+¿El paciente tiene que hacer PCR? -> VERDADERO
+*** Ejecución Finalizada. ***
