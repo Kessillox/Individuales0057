@@ -1,8 +1,8 @@
-package grupoadafelipe.pablo_aliaga.java_pa.individialu9_pa;
+package grupoadafelipe.pablo_aliaga.java_pa.individualu9_pa;
 
 import java.util.Scanner;
 
-public class individialu9_pa {
+public class individualu9_pa {
     public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in);
         String name = myObj.nextLine();

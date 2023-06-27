@@ -1,4 +1,4 @@
-package grupoadafelipe.pablo_aliaga.java_pa.individialu9_pa;
+package grupoadafelipe.pablo_aliaga.java_pa.individualu9_pa;
 
 import java.util.Scanner;
 
