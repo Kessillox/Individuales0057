@@ -2,7 +2,7 @@ package rocketeam.diegoortiz.javado;
 
 import java.util.Scanner;
 
-public class EjIndividual7 {
+public class EjIndividual7_do {
     public static void main(String[] args) {
         int cant_trabajadores;
         int pago_por_hora;
