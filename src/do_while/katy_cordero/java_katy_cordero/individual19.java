@@ -4,9 +4,16 @@ import java.util.Scanner;
 public class individual19 {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
+            String texto;
 
-            System.out.print("Ingrese una cadena de texto: ");
-            String texto = scanner.nextLine();
+            do {
+                System.out.print("Ingrese una cadena de texto: ");
+                texto = scanner.nextLine();
+
+                if (texto.isEmpty()) {
+                    System.out.println("La cadena ingresada está vacía. Por favor, ingrese una cadena válida.");
+                }
+            } while (texto.isEmpty());
 
             // Crear arreglo de caracteres del mismo tamaño que la cadena
             char[] caracteres = new char[texto.length()];
@@ -46,5 +53,3 @@ public class individual19 {
             }
         }
     }
-
-
