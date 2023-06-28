@@ -1,11 +1,9 @@
 package do_while.katy_cordero.java_katy_cordero;
-
 import java.util.Scanner;
 
 import static java.lang.System.*;
 
 public class individual15 {
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(in);
 
@@ -34,5 +32,4 @@ public class individual15 {
         }
         out.println("El resultado es: " + resultado);
     }
-
 }

@@ -1,7 +1,5 @@
 package do_while.katy_cordero.java_katy_cordero;
-
 import java.util.Scanner;
-
 public class individual17 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -69,6 +67,7 @@ public class individual17 {
         return false;
     }
 }
+
 
 
 

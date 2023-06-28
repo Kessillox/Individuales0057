@@ -1,8 +1,7 @@
-package do_while.die_mansilla.java_die_mansilla;
-
+package do_while.andres_sepulveda.java;
 import java.util.Scanner;
 
-public class individual_4_17_lmpl {
+public class individual_4_17 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean salir = false;
