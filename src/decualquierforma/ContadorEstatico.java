@@ -4,6 +4,7 @@ public class ContadorEstatico {
     public static void main(String[] args) throws InterruptedException {
         int contador = 0;
 
+        //Comentario extra error carlos
         for( int i = 0; i <= 10; i++ ) {
             System.out.print("Contador: " + contador + "    ");
             Thread.sleep(500); // Espera de 0.5 seg

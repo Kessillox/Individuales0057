@@ -1,0 +1,34 @@
+Individual 5
+Diego Ortiz
+
+P: Una persona debe permanecer 14 días en observación.
+Q: La persona ha salido del país.
+R: La persona se hará el PCR.
+S: La persona quiere volver a la normalidad.
+T: La persona presenta contagios cercanos.
+U: La persona tendrá que hacer cuarentena.
+V: Se le hará el PCR a la persona.
+
+Expresiones lógicas:
+P -> Q
+R -> S
+(¬Q ∧ ¬T) -> (¬U ∧ ¬V)
+
+Ejemplos
+Ej 1:
+P = Verdadero
+Q = Verdadero
+R = Falso
+S = Falso
+T = Falso
+U = Falso
+V = Falso
+
+Ej 2:
+P = Verdadero
+Q = Falso
+R = Verdadero
+S = Verdadero
+T = Falso
+U = Falso
+V = Falso

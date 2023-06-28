@@ -1,0 +1,7 @@
+¿Qué DDL?
+El el lenguaje de definicion de datos, DDL por sus siglas en inglés,
+utiliza operadores como CREATE, DROP, ALTER y TRUNCATE como las más utilizadas.
+¿Cuándo se puede anular una acción DDL?
+Nunca, solo DML
+¿Cuando se utilizan comillas dobles en la creación de una tabla?
+Cuando se especifica el nombre de la tabla y el de las columnas, 

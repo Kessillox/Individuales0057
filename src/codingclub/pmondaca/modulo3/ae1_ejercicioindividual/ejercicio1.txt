@@ -1,0 +1,52 @@
+1.- Defina los siguientes conceptos:
+-Base de datos: Una base de datos es un conjunto de tablas, estas pueden estar relacionadas entre sí (bases de datos relacionales) o no estarlo (base de datos no relacional)
+-Tabla: Una tabla es una forma de organizar los datos en filas y columnas
+-Registro: Un registro es el conjunto que datos que conforman la fila de una tabla
+-Columna: Una columna o atributo es una forma de clasificar y administrar los distintos datos en una tabla
+-Llave primaria: es la clave o campo con el cual podemos identificar una registro único en la tabla
+-Llave foránea: es la clave o campo que hereda una tabla/entidad producto de la relación que tiene con otra tabla, permite relacionar los registros de una tabla con los registros de otra. 
+
+Respondan: ¿Cuál es la relación entre una llave primaria y una llave foránea?
+La relación es que la llave primaria de una tabla puede ser la llave foránea de otra si esta es heredada en la relación entre las dos tablas. 
+
+2.- Ingresa a la base de datos con el usuario recién creado.Verifica que todas las tablas de la base sean visibles.En un archivo de texto indica el nombre de la tabla y la cantidad de registros que tiene. El entregable del ejercicio es un documento de texto con el listado de tablas y la cantidad de registros en cada caso.
+
+Tablas:
+city, country, countrylanguage
+
+Cantidad de registros:
+
+city: 4079 registros
+
+country: 239 registros
+
+countrylanguage: 984 registros
+
+3.-Usando como datos de referencia la base de datos “world” presente en MySQLWorkbench, contesta las siguientes preguntas:
+¿Cuántas ciudades existen en la base de datos?
+Si solo se cuentan los distintos nombres de las ciudades tenemos 3998 
+
+Si se ordenan los países de acuerdo con su nombre ¿cuál sería el primero y cuál el último?
+El primero es Afghanistan
+El último es Zimbabwe
+
+Tomando en cuenta todos los países de Sudamérica ¿cuántas ciudades existen entre todos ellos?
+470 ciudades
+
+Considerando todos los idiomas declarados en la base, ¿cuántos idiomas corresponden a países de Sudamérica?
+21 idiomas
+
+5.- Dentro de MySQLWorkbench existe una base de pruebas llamada “sakila”, la cual almacena datos de arriendo de películas, junto con datos de las películas y actores.
+Usando estos datos como referencia, conteste las siguientes preguntas:
+¿Cuántas películas están registradas?
+1000 películas
+¿Cuántos clientes existen en la base de datos?
+599 clientes
+¿Cuántos títulos existen en inventario?
+958
+¿Cuál es la película más arrendada?
+Bucket Brotherhood un total de 34 veces
+
+5.-Luego de utilizar MySQL Workbench, indaguen en el uso de MySQL Shell.
+¿Qué diferencias existen entre utilizar una u otra plataforma?
+Workbench es una interfaz de usuario para administrar la base de datos, mientras que el Shell es una consola desde la que puedes administra la base solo utilizando comandos. 
