@@ -1,15 +1,19 @@
-package do_while.katy_cordero.java_katy_cordero;
-
+package do_while.luis_sepulveda.java_luis_sepulveda;
 import java.util.Scanner;
 
-public class individual19_2 {
-
-
+public class individual19 {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
+            String texto;
 
-            System.out.print("Ingrese una cadena de texto: ");
-            String texto = scanner.nextLine();
+            do {
+                System.out.print("Ingrese una cadena de texto: ");
+                texto = scanner.nextLine();
+
+                if (texto.isEmpty()) {
+                    System.out.println("La cadena ingresada está vacía. Por favor, ingrese una cadena válida.");
+                }
+            } while (texto.isEmpty());
 
             // Crear arreglo de caracteres del mismo tamaño que la cadena
             char[] caracteres = new char[texto.length()];
@@ -27,7 +31,8 @@ public class individual19_2 {
             System.out.println();
 
             // Contar las letras
-            int[] contadorLetras = new int[26]; // Un contador para cada letra del abecedario
+            int[] contadorLetras; // Un contador para cada letra del abecedario
+            contadorLetras = new int[26];
 
             for (char c : caracteres) {
                 if (Character.isLetter(c)) { // Validar si es una letra
@@ -48,6 +53,3 @@ public class individual19_2 {
             }
         }
     }
-
-
-
