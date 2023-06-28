@@ -8,5 +8,7 @@ public class Main {
     public static void main(String[] args) {
         Curso curso1;
         Scanner sc = new Scanner(System.in);
+
+
     }
 }
