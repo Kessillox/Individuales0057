@@ -2,7 +2,7 @@ package rocketeam.diegoortiz.javado;
 
 import java.util.Scanner;
 
-public class EjIndividual3 {
+public class EjIndividual3_do {
 
     public static void main(String[] args) {
         int cant_personas = 0, costo_plato;

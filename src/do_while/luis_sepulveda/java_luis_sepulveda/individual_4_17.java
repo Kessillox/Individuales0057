@@ -1,8 +1,7 @@
 package do_while.luis_sepulveda.java_luis_sepulveda;
-
 import java.util.Scanner;
 
-public class individual17 {
+public class individual_4_17 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean salir = false;
@@ -16,9 +15,15 @@ public class individual17 {
             scanner.nextLine(); // Consumir el salto de línea después de leer el entero
 
             switch (opcion) {
-                case 1 -> ejecutarCodigo(scanner);
-                case 2 -> salir = true;
-                default -> System.out.println("Opción inválida. Por favor, elige una opción válida.");
+                case 1:
+                    ejecutarCodigo(scanner);
+                    break;
+                case 2:
+                    salir = true;
+                    break;
+                default:
+                    System.out.println("Opción inválida. Por favor, elige una opción válida.");
+                    break;
             }
         }
     }
@@ -69,13 +74,3 @@ public class individual17 {
         return false;
     }
 }
-
-
-
-
-
-
-
-
-
-
