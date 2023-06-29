@@ -59,4 +59,9 @@ public class Persona {
                 ", fechaNac=" + fechaNac +
                 '}';
     }
+
+    public String presentacion(){
+        String saludo = "Hola! soy el Lolito "+this.getNombre()+" y hago anexos";
+        return saludo;
+    }
 }
