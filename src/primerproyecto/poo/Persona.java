@@ -1,8 +1,6 @@
 package primerproyecto.poo;
 
-
 import java.time.LocalDate;
-import java.util.Date;
 
 public class Persona {
     private String nombre;
