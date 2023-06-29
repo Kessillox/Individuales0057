@@ -1,8 +1,47 @@
 package primerproyecto.poo;
 
-public class Profesor {
+import java.time.LocalDate;
+import java.util.List;
+
+public class Profesor extends Persona{
     private String asignatura;
-    private Curso curso;
+    private List<Curso> listaCursos;
 
+    public Profesor() {
+    }
 
+    public Profesor(String nombre, String apellido, int edad, LocalDate fechaNac, String asignatura, List<Curso> listaCursos) {
+        super(nombre, apellido, edad, fechaNac);
+        this.asignatura = asignatura;
+        this.listaCursos = listaCursos;
+    }
+
+    public String getAsignatura() {
+        return asignatura;
+    }
+
+    public void setAsignatura(String asignatura) {
+        this.asignatura = asignatura;
+    }
+
+    public List<Curso> getListaCursos() {
+        return listaCursos;
+    }
+
+    public void setListaCursos(List<Curso> listaCursos) {
+        this.listaCursos = listaCursos;
+    }
+
+    @Override
+    public String toString() {
+        return  super.toString()+ "Profesor{" +
+                "asignatura='" + asignatura + '\'' +
+                ", listaCursos=" + listaCursos +
+                "} ";
+    }
+
+    public String presentacion(){
+      String saludo = "Hola! soy el profesor "+this.getNombre()+" y hago clases de "+this.asignatura +" en los cursos "+ this.getListaCursos();
+    return saludo;
+    }
 }
