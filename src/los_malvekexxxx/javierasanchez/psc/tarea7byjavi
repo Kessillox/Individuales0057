@@ -1,0 +1,36 @@
+inicio
+    escaner sc = nuevo escaner() // Variable que solicita datos por consola
+
+    imprimir "Ingrese la cantidad de usuarios para agregar: " // Escribo en consola
+
+    entero cantidad_usuario = 0 // Variable para capturar cantidad de usuarios
+    entero dias_semanales = 5 // Variable que almacena los días semanales
+
+    cantidad_usuario = sc.leerEntero() // Pido ingresar el valor por consola
+
+    imprimir "Ingrese el monto pagado por hora trabajada: " // Escribo en consola
+    entero precio_por_hora = sc.leerEntero() // Valor de la hora por trabajo
+
+    mientras cantidad_usuario > 0 hacer
+        imprimir "Ingrese el nombre del usuario:"
+
+        cadena nombre = sc.leerCadena() // Variable que almacena el nombre
+
+        imprimir "Ingrese la edad del usuario: "
+        entero edad = sc.leerEntero() // Variable que almacena la edad
+
+        imprimir "Ingrese la cantidad de horas trabajadas del usuario: "
+        entero horas_trabajadas = sc.leerEntero() // Variable que almacena las horas trabajadas
+
+        entero dinero_semanal = horas_trabajadas * precio_por_hora
+
+        imprimir "El usuario ", nombre, " de la edad ", edad,
+            "\nTrabajó ", horas_trabajadas, " horas en la semana\npor lo que le corresponde el monto de ",
+            dinero_semanal, " pesos chilenos\n"
+
+        cantidad_usuario <- cantidad_usuario - 1
+    fin mientras
+
+    sc.cerrar()
+fin
+
