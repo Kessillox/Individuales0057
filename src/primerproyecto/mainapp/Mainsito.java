@@ -9,14 +9,14 @@ import java.time.Month;
 import java.util.logging.Logger;
 
 
-public class Main {
+public class Mainsito {
     public static void main(String[] args) {
 
-        Logger log = Logger.getLogger(Main.class.getName());
+        Logger log = Logger.getLogger(Mainsito.class.getName());
 
         Persona pers1 = new Persona();
         LocalDate fNac = LocalDate.now();
-        System.out.println(pers1);
+
         pers1.setNombre("Andres");
         pers1.setApellido("Sepúlveda");
         pers1.setEdad(28);
