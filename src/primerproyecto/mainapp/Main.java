@@ -21,10 +21,13 @@ public class Main {
     public static void main(String[] args) {
         //Instancia Objeto pers1 de tipo Persona, con su constructor vacío
         Persona pers1 = new Persona();
+
         //Instancia Obeto fNac de tipo LocalDate con valor .now()
         LocalDate fNac = LocalDate.now();
+
         //Imprimir pers1 vacía
         System.out.println(pers1.toString());
+        System.out.println(pers1);
 
         //Seteando o asignando valores al objeto pers1
         pers1.setNombre("Andres");
@@ -36,8 +39,10 @@ public class Main {
         Curso curso1 = new Curso();
         Curso curso2 = new Curso();
         Curso curso3 = new Curso();
+
         //Instancia Lista de Cursos
         List<Curso> listaCursosProf1 = new ArrayList<>();
+
         //Seteo de datos de los objetos curso
         curso1.setLetra("A");
         curso1.setNumAlumnos(25);
@@ -59,18 +64,19 @@ public class Main {
         System.out.println("*******************Persona*******************");
         System.out.println(pers1);
         System.out.println(pers1.getNombre());
+        System.out.println("");
         System.out.println("*******************Profesor*******************");
         System.out.println(prof1);
         System.out.println("El profesor "+prof1.getNombre()+" hace clases en los cursos "+ prof1.getListaCursos());
+        System.out.println("");
         System.out.println("********************Metodo presentacion******************");
         System.out.println(prof1.presentacion());
         System.out.println(prof2.presentacion());
-
+        System.out.println("");
         System.out.println("**************************************");
         System.out.println("LocalDate = " + LocalDate.now());
-        System.out.println("LocalDateTime = "+ LocalDateTime.now());
-        System.out.println("LocalTime = "+ LocalTime.now());
+        System.out.println("LocalDateTime = " + LocalDateTime.now());
+        System.out.println("LocalTime = " + LocalTime.now());
         System.out.println("El Cumpleaños de Andrés es = " + LocalDate.of(1995, Month.MARCH, 4));
-
     }
 }
