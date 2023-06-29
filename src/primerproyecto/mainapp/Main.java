@@ -28,6 +28,7 @@ public class Main {
         //Imprimir pers1 vacía
         System.out.println(pers1.toString());
         System.out.println(pers1);
+        System.out.println("");
 
         //Seteando o asignando valores al objeto pers1
         pers1.setNombre("Andres");
