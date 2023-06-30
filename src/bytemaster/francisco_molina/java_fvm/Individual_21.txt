@@ -1,0 +1,39 @@
+//el nombre package tiene que escribice en minusculas y empazar con una letra.
+package Clase11;  //package clase11;
+
+// el nombre de la clase se debe escribir con mayusculas y empezar con una letra.
+public class _EJemplO1 { // public class Ejemplo01
+
+public static void main (String args[]) {
+
+/*los nombres de variables deben comenzar con una letra minúscula y es recomendable
+utilizar nombres más descriptivos y significativos para las variables.*/
+int $algo = 5; // int algo = 5;
+
+//Falta de delimitadores de cadena como
+String Var1 = "En un lugar de la Mancha, de cuyo
+nombre no quiero acordarme, no ha mucho tiempo que vivía un
+hidalgo de los de lanza en astillero, adarga antigua, rocín flaco
+y galgo corredor. "
+
++ "Una olla de algo más vaca que carnero,
+salpicón las más noches, duelos y quebrantos los sábados,
+lantejas los viernes, algún palomino de añadidura los domingos,
+consumían las tres partes de su hacienda.";
+
+//Comentarios incorrectos: para comentar varias lineas se debe utilizar "/* */"
+
+//El resto della concluían sayo de velarte, calzas de
+velludo para las fiestas, con sus pantuflos de lo mesmo,
+//y los días de entresemana se honraba con su
+vellorí de lo más fino
+
+int otraCosa;
+otraCosa = 6;
+
+System.out.println("El valor de la primera variable es "
++ $algo + " y de la segunda es " + otraCosa);
+
+System.out.println("¿Te cuento un cuento?: " + Var1);
+}
+}
