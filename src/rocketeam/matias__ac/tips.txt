@@ -1,0 +1,6 @@
+git add .
+git commit -m "indis_mac"
+git pull
+git push
+git push --set-upstream origin matias_ac
+git branch // permite ver en que rama estamos trabajando
