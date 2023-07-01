@@ -1,4 +1,4 @@
-package Calculadora;
+package grupoadafelipe.Juan_Lucio.JavaJD;
 
 import java.util.Scanner;
 

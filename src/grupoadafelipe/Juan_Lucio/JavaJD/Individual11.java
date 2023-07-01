@@ -1,3 +1,5 @@
+package grupoadafelipe.Juan_Lucio.JavaJD;
+
 public class Individual11 {
     public static void main(String[] args) {
         int[][] matriz = new int[4][4];

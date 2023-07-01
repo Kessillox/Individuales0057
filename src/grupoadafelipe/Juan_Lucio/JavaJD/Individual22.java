@@ -1,3 +1,5 @@
+package grupoadafelipe.Juan_Lucio.JavaJD;
+
 public class Individual22 {
     public static void main(String[] args) {
         int algo = 5;
