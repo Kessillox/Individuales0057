@@ -1,8 +1,6 @@
 package primerproyecto.poo;
 
-
 import java.time.LocalDate;
-import java.util.Date;
 
 public class Persona {
     private String nombre;
@@ -60,5 +58,10 @@ public class Persona {
                 ", edad=" + edad +
                 ", fechaNac=" + fechaNac +
                 '}';
+    }
+
+    public String presentacion(){
+        String saludo = "Hola! soy el Lolito "+this.getNombre()+" y hago anexos";
+        return saludo;
     }
 }
