@@ -1,6 +1,6 @@
 package do_while.diego_aedo.java_daedo;
 
-public class m4Individual21Ejemplo1 {
+public class M4Individual21DAedo {
     public static void main (String args[]) {
 
         int $algo = 5;
@@ -11,12 +11,7 @@ public class m4Individual21Ejemplo1 {
                 "lantejas los viernes, algún palomino de añadidura los domingos,"+
                 "consumían las tres partes de su hacienda.";
 
-//El resto della concluían sayo de velarte, calzas de
-
-        velludo para las fiestas, con sus pantuflos de lo mesmo,
-//y los días de entresemana se honraba con su
-
-                vellorí de lo más fino
+//El resto della concluían sayo de velarte, calzas de velludo para las fiestas, con sus pantuflos de lo mesmo, y los días de entresemana se honraba con su vellorí de lo más fino
         int otraCosa;
         otraCosa = 6;
         System.out.println("El valor de la primera variable es "
