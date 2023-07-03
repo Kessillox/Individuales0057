@@ -1,5 +1,7 @@
 package rocketeam.matias__ac.mac_java.mod04;
 import java.util.Scanner;
+
+//modulo 4 ejercicio 23
 public class SwapperTxt {
 
     public class ContadorLetras {
