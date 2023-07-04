@@ -2,7 +2,7 @@ package rocketeam.christopher_lopez.java_cl;
 
 import java.util.Scanner;
 
-public class Individual23 {
+public class Modulo4_Individual_23 {
 
     public static void main(String[] args) {
 
