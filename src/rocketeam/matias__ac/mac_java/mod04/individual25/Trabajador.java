@@ -59,7 +59,7 @@ public class Trabajador {
     }
 
     public int descomponerRun() {
-        String[] partes = run.split("-");
+        String[] partes = this.run.split("-");
         String runSinGuion = partes[0];
         return Integer.parseInt(runSinGuion);
     }

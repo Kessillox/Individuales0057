@@ -16,24 +16,17 @@ public class Rework23 {
 
 
         for (int indice = 0; indice < textoUsuario.length(); indice++){
-
             System.out.println(textoUsuario.charAt(indice));
-
             char caracterActual = textoUsuario.charAt(indice);
 
             if(Character.isWhitespace(caracterActual) || Character.isLetterOrDigit(caracterActual) ){
-
                 if (Character.isLowerCase(caracterActual))
-
                     caracterActual = Character.toUpperCase(caracterActual);
                 else
-
                     caracterActual = Character.toLowerCase(caracterActual);
-
                 txtResultado = txtResultado + caracterActual;
             }
         }
-
         System.out.println(txtResultado);
 
     }
