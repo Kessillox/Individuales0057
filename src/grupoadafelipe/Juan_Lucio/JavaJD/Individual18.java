@@ -1,3 +1,5 @@
+package grupoadafelipe.Juan_Lucio.JavaJD;
+
 import java.util.Scanner;
 
 public class Individual18 {
