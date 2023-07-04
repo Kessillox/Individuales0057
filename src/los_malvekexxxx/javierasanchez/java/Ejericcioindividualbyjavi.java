@@ -1,7 +1,7 @@
 package los_malvekexxxx.javierasanchez.java;
 
 import java.util.Scanner;
-public class tareaindividualbyjavi {
+public class Ejericcioindividualbyjavi {
 
 
         public static void main(String[] args) {
