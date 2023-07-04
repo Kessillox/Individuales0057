@@ -4,14 +4,13 @@ import java.util.Scanner;
 public class individual23 {
 
     public static void main(String[] args) {
-        //Instancia del Scanner
-        Scanner sc = new Scanner(System.in);
+        Scanner escanear = new Scanner(System.in);
         //Variable texto y txt String inicializada en vacío
         String texto = "";
         String txt = "";
         System.out.println("Ingrese una cadena de texto a su gusto");
         //solicitud de ingreso por teclado
-        texto = sc.nextLine();
+        texto = escanear.nextLine();
 
         //Inicio del ciclo que recorre el texto
         for (int x = 0; x < texto.length(); x++) {
