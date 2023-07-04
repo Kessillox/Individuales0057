@@ -1,7 +1,7 @@
-package grupoadafelipe.pablo_aliaga.java_pa;
+package grupoadafelipe.pablo_aliaga.java_pa.indiv13_pa;
 import java.util.Scanner;
 
-public class indiv13_pa {
+public class Trabajador {
     private String nombres;
     private String apellidos;
     private int run;
