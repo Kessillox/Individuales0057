@@ -28,4 +28,13 @@ public class Trabajador {
                 ", edad=" + edad +
                 '}';
     }
+    public String nombreCompleto() {
+        return nombre  +" "+  apellido;
+    };
+
+
+
+
+
+
 }
