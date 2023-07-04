@@ -72,20 +72,11 @@ public class Trabajador {
         return nombre  +" "+  apellido;
     };
     public  int descomponerRun() {
-        String[] partes = run.split("-"); // Dividir el RUN en dos partes separadas por el guion
-        String parteAnterior = partes[0]; // Obtener la primera parte del RUN antes del guion
-
-        // Eliminar los puntos de la primera parte del RUN
+        String[] partes = run.split("-");
+        String parteAnterior = partes[0];
         String runSinPuntos = parteAnterior.replace(".", "");
-
-        // Convertir la primera parte del RUN en un número entero
         int numero = Integer.parseInt(runSinPuntos);
 
         return numero;
     }
-
-
-
-
-
 }
