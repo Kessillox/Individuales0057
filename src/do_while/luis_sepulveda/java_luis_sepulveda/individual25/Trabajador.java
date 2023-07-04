@@ -68,9 +68,9 @@ public class Trabajador {
         if(this.run.contains(".")){
             this.run = this.run.replace(".", "");
         }
-        String[] partes = run.split("-");
+        String[] runSinGuion = run.split("-");
 
-        return Integer.parseInt(partes[0]);
+        return Integer.parseInt(runSinGuion[0]);
     }
 
 
