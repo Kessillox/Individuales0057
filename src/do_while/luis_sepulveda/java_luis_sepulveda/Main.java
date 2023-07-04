@@ -8,7 +8,7 @@ public class Main {
 
         tr1.setNombres("Luis");
         tr1.setApellidos("Sepulveda");
-        tr1.setRun("18242624-5");
+        tr1.setRun("18.242.624-5");
         tr1.setEdad(31);
         tr1.setTelefono("123123123");
 
