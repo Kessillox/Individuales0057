@@ -1,28 +1,29 @@
 package los_malvekexxxx;
 
 import java.util.Scanner;
+
 public class los_Malvekexxxx_23 {
 
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        String texto = "";
-        String txt = "";
+        String frase = "";
+        String fraseCompuesta = "";
 
-        System.out.println("Ingrese la cadena de texto a gusto: ");
+        System.out.println("Ingresa una frase que te guste: ");
 
-        texto = sc.nextLine();
+        frase = sc.nextLine();
 
-        for (int x = 0; x < texto.length();x++){
-            System.out.println(texto.charAt(x));
-            char c = texto.charAt(x);
+        for (int x = 0; x < frase.length(); x++){
+            System.out.println(frase.charAt(x));
+            char letra = frase.charAt(x);
 
-            if (Character.isWhitespace(c) || Character.isLetterOrDigit(c)){
-                if (Character.isLowerCase(c)){ c = Character.toUpperCase(c); }
-                else { c = Character.toLowerCase(c);}
-                txt += c;
+            if (Character.isWhitespace(letra) || Character.isLetterOrDigit(letra)){
+                if (Character.isLowerCase(letra)){ letra = Character.toUpperCase(letra); }
+                else { letra = Character.toLowerCase(letra);}
+                fraseCompuesta += letra;
             }
         }
-        System.out.println(txt);
+        System.out.println(fraseCompuesta);
     }
 
 }
