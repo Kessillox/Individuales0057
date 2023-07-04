@@ -1,6 +1,5 @@
-package Clase11;
-
-public class Ejemplo1 {
+package bytemaster.leonardo_lopez.psc_llc;
+public class Ejerccioindividual21 {
     public static void main(String args[]) {
         int algo = 5;
         String var1 = "En un lugar de la Mancha, de cuyo\n" +
