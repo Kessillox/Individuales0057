@@ -31,7 +31,7 @@ public class Trabajador {
     public String nombreCompleto() {
         return nombre  +" "+  apellido;
     };
-    public  int descomponerRun(String run) {
+    public  int descomponerRun() {
         String[] partes = run.split("-"); // Dividir el RUN en dos partes separadas por el guion
         String parteAnterior = partes[0]; // Obtener la primera parte del RUN antes del guion
 
