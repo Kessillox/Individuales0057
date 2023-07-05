@@ -92,6 +92,22 @@ public class Trabajador {
                 ", telefono=" + telefono +
                 '}';
     }
+    public String nombreCompleto(){
+            return nombre +" "+ apellido1 +" "+ apellido2;
+    }
+    public String nombreCompleto2(){
+        String nombreCompleto = nombre +" "+ apellido1 +" "+ apellido2;
+        return nombreCompleto;
+    }
 
+    public int procesarRut(){
+
+        int rut=0;
+        String[] arregloStrRut = this.rut.split("-");
+        //arregloStrRut
+        rut = Integer.parseInt(arregloStrRut[0]);
+
+        return rut;
+    }
 
 }
