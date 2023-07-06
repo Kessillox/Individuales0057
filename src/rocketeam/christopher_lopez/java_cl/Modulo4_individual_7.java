@@ -56,7 +56,7 @@ public class Modulo4_individual_7 {
 
         for (int j=0; j<= n-1;j++){
 
-            System.out.println("Trabajador "+(j+1));
+            System.out.println("Trabajadormalvekex "+(j+1));
 
             for (int k=0; k <= 2;k++){
 

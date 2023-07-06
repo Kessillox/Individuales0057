@@ -1,19 +1,18 @@
-package los_malvekexxxx.gabriel_cordero.java_gcm.TareaIndividual25;
+package los_malvekexxxx.javierasanchez.java.ejercicioindividual27byjavi;
 
-
-// Se crea la clase Trabajadormalvekex con sus atributos
-public class Trabajador {
+public class Trabajadormalvekex {
     private String nombres;
     private String apellidos;
     private String run;
     private String telefono;
     private int edad;
 
-    // Constructor vacio
-    public Trabajador() {
+    // Constructor vacío
+    public Trabajadormalvekex() {
     }
-    //Constructor con atributos
-    public Trabajador(String nombres, String apellidos, String run, String telefono, int edad) {
+
+    // Constructor con todos los atributos
+    public Trabajadormalvekex(String nombres, String apellidos, String run, String telefono, int edad) {
         this.nombres = nombres;
         this.apellidos = apellidos;
         this.run = run;
@@ -21,8 +20,7 @@ public class Trabajador {
         this.edad = edad;
     }
 
-
-    // Se crea los Getters  and Seters
+    // Métodos accesores y modificadores
     public String getNombres() {
         return nombres;
     }
@@ -63,19 +61,7 @@ public class Trabajador {
         this.edad = edad;
     }
 
-    // Se crea el metodo nombre completo
-    public String nombreCompleto() {
-        return nombres + " " + apellidos;
-    }
-
-    // Se crea el metodo descomponer run
-    public int descomponerRun() {
-        String[] partes = run.split("-");
-        return Integer.parseInt(partes[0]);
-    }
-
-
-    // Se crea el metodo toString
+    // Método toString()
     @Override
     public String toString() {
         return "Trabajadormalvekex{" +
@@ -86,8 +72,4 @@ public class Trabajador {
                 ", edad=" + edad +
                 '}';
     }
-
-
 }
-
-
