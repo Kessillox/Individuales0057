@@ -1,3 +1,5 @@
+package grupoadafelipe.Juan_Lucio.JavaJD;
+
 import java.util.Random;
 
 public class Individual12 {
