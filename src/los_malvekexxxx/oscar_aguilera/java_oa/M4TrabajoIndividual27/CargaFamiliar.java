@@ -88,6 +88,17 @@ public class CargaFamiliar {
         this.edad = edad;
     }
 
-
-
+    @Override
+    public String toString() {
+        return "CargaFamiliar{" +
+                "nombre1='" + nombre1 + '\'' +
+                ", nombre2='" + nombre2 + '\'' +
+                ", apellido1='" + apellido1 + '\'' +
+                ", apellido2='" + apellido2 + '\'' +
+                ", run='" + run + '\'' +
+                ", runFamiliar='" + runFamiliar + '\'' +
+                ", Parentesco='" + Parentesco + '\'' +
+                ", edad=" + edad +
+                '}';
+    }
 }
