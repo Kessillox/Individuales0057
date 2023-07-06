@@ -1,8 +1,5 @@
 package bytemaster.individuales.individual27;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Trabajador {
     private String nombre;
     private String apellido;
