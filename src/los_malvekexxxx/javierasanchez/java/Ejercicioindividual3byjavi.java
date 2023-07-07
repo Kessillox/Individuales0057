@@ -3,6 +3,9 @@ package los_malvekexxxx.javierasanchez.java;
 import java.util.Scanner;
 
 public class Ejercicioindividual3byjavi {
+    public Ejercicioindividual3byjavi() {
+    }
+
     public static void main(String[] args) {
 
         Scanner entrada = new Scanner(System.in);

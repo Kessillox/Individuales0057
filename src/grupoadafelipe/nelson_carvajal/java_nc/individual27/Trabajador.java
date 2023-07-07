@@ -1,4 +1,4 @@
-package losprofes;
+package grupoadafelipe.nelson_carvajal.java_nc.individual27;
 
 import java.time.LocalDate;
 
@@ -82,7 +82,7 @@ public class Trabajador {
 
     @Override
     public String toString() {
-        return "Trabajadormalvekex{" +
+        return "Trabajador{" +
                 "nombre='" + nombre + '\'' +
                 ", apellido1='" + apellido1 + '\'' +
                 ", apellido2='" + apellido2 + '\'' +

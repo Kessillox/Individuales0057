@@ -1,15 +1,12 @@
-package losprofes;
+package codingclub.andrealopez.java.ind25y27;
 
 import java.time.LocalDate;
 
 public class Trabajador {
-    private String nombre;
-    private String apellido1;
-    private String apellido2;
-    private String rut;
-    private int edad;
+
+    private String nombre, apellido1, apellido2, rut;
+    private int edad, telefono;
     private LocalDate fechaNacimiento;
-    private int telefono;
 
     public Trabajador() {
     }
@@ -82,7 +79,7 @@ public class Trabajador {
 
     @Override
     public String toString() {
-        return "Trabajadormalvekex{" +
+        return "Trabajador{" +
                 "nombre='" + nombre + '\'' +
                 ", apellido1='" + apellido1 + '\'' +
                 ", apellido2='" + apellido2 + '\'' +
@@ -93,7 +90,7 @@ public class Trabajador {
                 '}';
     }
     public String nombreCompleto(){
-            return nombre +" "+ apellido1 +" "+ apellido2;
+        return nombre +" "+ apellido1 +" "+ apellido2;
     }
     public String nombreCompleto2(){
         String nombreCompleto = nombre +" "+ apellido1 +" "+ apellido2;
@@ -109,5 +106,4 @@ public class Trabajador {
 
         return rut;
     }
-
 }
