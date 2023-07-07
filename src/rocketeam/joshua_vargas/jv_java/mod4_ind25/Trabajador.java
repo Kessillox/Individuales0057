@@ -1,7 +1,5 @@
-package los_malvekexxxx.gabriel_cordero.java_gcm.TareaIndividual25;
+package rocketeam.joshua_vargas.jv_java.mod4_ind25;
 
-
-// Se crea la clase Trabajador con sus atributos
 public class Trabajador {
     private String nombres;
     private String apellidos;
@@ -9,10 +7,9 @@ public class Trabajador {
     private String telefono;
     private int edad;
 
-    // Constructor vacio
     public Trabajador() {
     }
-    //Constructor con atributos
+
     public Trabajador(String nombres, String apellidos, String run, String telefono, int edad) {
         this.nombres = nombres;
         this.apellidos = apellidos;
@@ -21,8 +18,6 @@ public class Trabajador {
         this.edad = edad;
     }
 
-
-    // Se crea los Getters  and Seters
     public String getNombres() {
         return nombres;
     }
@@ -63,31 +58,23 @@ public class Trabajador {
         this.edad = edad;
     }
 
-    // Se crea el metodo nombre completo
     public String nombreCompleto() {
         return nombres + " " + apellidos;
     }
 
-    // Se crea el metodo descomponer run
     public int descomponerRun() {
         String[] partes = run.split("-");
-        return Integer.parseInt(partes[0]);
+        String runSinGuion = partes[0];
+        return Integer.parseInt(runSinGuion);
     }
 
-
-    // Se crea el metodo toString
     @Override
     public String toString() {
-        return "Trabajador{" +
-                "nombres='" + nombres + '\'' +
+        return  "nombres='" + nombres + '\'' +
                 ", apellidos='" + apellidos + '\'' +
                 ", run='" + run + '\'' +
                 ", telefono='" + telefono + '\'' +
-                ", edad=" + edad +
-                '}';
+                ", edad=" + edad;
+
     }
-
-
 }
-
-
