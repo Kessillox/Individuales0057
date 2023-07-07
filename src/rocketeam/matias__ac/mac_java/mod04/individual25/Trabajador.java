@@ -3,14 +3,14 @@ package rocketeam.matias__ac.mac_java.mod04.individual25;
 public class Trabajador {
     private String nombres;
     private String apellidos;
-    private String run;
+    private String rut;
     private String telefono;
     private int edad;
 
     public Trabajador(){
         this.nombres = nombres;
         this.apellidos = apellidos;
-        this.run = run;
+        this.rut = rut;
         this.telefono = telefono;
         this.edad = edad;
     }
@@ -30,12 +30,12 @@ public class Trabajador {
         this.apellidos = apellidos;
     }
 
-    public String getRun() {
-        return run;
+    public String getRut() {
+        return rut;
     }
 
-    public void setRun(String run) {
-        this.run = run;
+    public void setRut(String rut) {
+        this.rut = rut;
     }
 
     public String getTelefono() {
@@ -58,16 +58,16 @@ public class Trabajador {
         return nombres + " " + apellidos;
     }
 
-    public int descomponerRun() {
-        String[] partes = this.run.split("-");
-        String runSinGuion = partes[0];
-        return Integer.parseInt(runSinGuion);
+    public int descomponerRut() {
+        String[] partes = this.rut.split("-");
+        String rutSinGuion = partes[0];
+        return Integer.parseInt(rutSinGuion);
     }
     @Override
     public String toString() {
         return "Nombre: " + nombres + "\n" +
                 "Apellidos: " + apellidos + "\n" +
-                "RUN: " + run + "\n" +
+                "RUT: " + rut + "\n" +
                 "Teléfono: " + telefono + "\n" +
                 "Edad: " + edad;
     }
