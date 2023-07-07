@@ -20,5 +20,8 @@ import java.util.List;
             archivoRecorridoDeListaArchivos.validar();
         }
     }
-}
+
+        public void validarDocumentos() {
+        }
+    }
 
