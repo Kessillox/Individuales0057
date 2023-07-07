@@ -24,7 +24,7 @@ public class Ejercicioindivual25byjavi {
     // Método toString()
     @Override
     public String toString() {
-        return "Trabajador{" +
+        return "Trabajadormalvekex{" +
                 "nombres='" + nombres + '\'' +
                 ", apellidos='" + apellidos + '\'' +
                 ", run='" + run + '\'' +

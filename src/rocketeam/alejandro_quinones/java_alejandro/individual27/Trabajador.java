@@ -1,4 +1,4 @@
-package losprofes;
+package rocketeam.alejandro_quinones.java_alejandro.individual27;
 
 import java.time.LocalDate;
 
@@ -82,7 +82,7 @@ public class Trabajador {
 
     @Override
     public String toString() {
-        return "Trabajadormalvekex{" +
+        return "Trabajador{" +
                 "nombre='" + nombre + '\'' +
                 ", apellido1='" + apellido1 + '\'' +
                 ", apellido2='" + apellido2 + '\'' +
@@ -92,22 +92,6 @@ public class Trabajador {
                 ", telefono=" + telefono +
                 '}';
     }
-    public String nombreCompleto(){
-            return nombre +" "+ apellido1 +" "+ apellido2;
-    }
-    public String nombreCompleto2(){
-        String nombreCompleto = nombre +" "+ apellido1 +" "+ apellido2;
-        return nombreCompleto;
-    }
 
-    public int procesarRut(){
-
-        int rut=0;
-        String[] arregloStrRut = this.rut.split("-");
-        //arregloStrRut
-        rut = Integer.parseInt(arregloStrRut[0]);
-
-        return rut;
-    }
 
 }
