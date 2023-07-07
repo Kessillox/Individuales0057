@@ -6,14 +6,14 @@ import do_while.katy_cordero.java_katy_cordero.interfacetrabajos.interfaces.serv
 
 public class Main {
     public static void main(String[] args){
-        ServicioValidacion servicioValidacion = new ServicioValidacion();
+        ServicioValidacion ServicioValidacion = new ServicioValidacion();
         Word doc1 = new Word("SuperDocumento", 1997);
 
         Pdf doc3 = new Pdf("Aprende Java", true);
 
-        servicioValidacion.agregarDocumento(doc1);
-        servicioValidacion.agregarDocumento(doc3);
+        ServicioValidacion.agregarDocumento(doc1);
+        ServicioValidacion.agregarDocumento(doc3);
 
-        servicioValidacion.validarDocumentos();
+        ServicioValidacion.validarArchivo();
     }
 }
