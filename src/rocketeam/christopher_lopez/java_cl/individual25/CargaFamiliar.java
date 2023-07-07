@@ -5,14 +5,14 @@ public class CargaFamiliar {
     private String runCarga;
     private String nombres;
     private String apellidos;
-    private String runFamiliar;
+    private Trabajador runFamiliar;
     private char parentesco;
     private int edad;
 
     public CargaFamiliar() {
     }
 
-    public CargaFamiliar(String runCarga, String nombres, String apellidos, String runFamiliar, char parentesco, int edad) {
+    public CargaFamiliar(String runCarga, String nombres, String apellidos, Trabajador runFamiliar, char parentesco, int edad) {
         this.runCarga = runCarga;
         this.nombres = nombres;
         this.apellidos = apellidos;
@@ -45,11 +45,11 @@ public class CargaFamiliar {
         this.apellidos = apellidos;
     }
 
-    public String getRunFamiliar() {
+    public Trabajador getRunFamiliar() {
         return runFamiliar;
     }
 
-    public void setRunFamiliar(String runFamiliar) {
+    public void setRunFamiliar(Trabajador runFamiliar) {
         this.runFamiliar = runFamiliar;
     }
 
@@ -75,7 +75,7 @@ public class CargaFamiliar {
                 "runCarga='" + runCarga + '\'' +
                 ", nombres='" + nombres + '\'' +
                 ", apellidos='" + apellidos + '\'' +
-                ", runFamiliar='" + runFamiliar + '\'' +
+                ", runFamiliar='" + runFamiliar.getRun() + '\'' +
                 ", parentesco=" + parentesco +
                 ", edad=" + edad +
                 '}';

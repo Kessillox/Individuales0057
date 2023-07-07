@@ -8,6 +8,10 @@ public class Individual25 {
         System.out.println(t1.nombreCompleto());
         System.out.println(t1.descomponerRun());
         System.out.println(t1);
+
+        CargaFamiliar carga1 = new CargaFamiliar("111-1","Juan","Perez",t1,'1',50);
+        System.out.println(carga1.toString());
+
     }
 
 
