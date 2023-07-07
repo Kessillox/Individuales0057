@@ -3,14 +3,14 @@ package los_malvekexxxx.gabriel_cordero.java_gcm.TrabajoIndividual27M4;
 public class TrabajoIndividual27M4 {
 
 
-        String nombre1;
-        String nombre2;
-        String apellido1;
-        String apellido2;
-        String run;
-        String runFamiliar;
-        String Parentesco;
-        int edad;
+        private String nombre1;
+        private String nombre2;
+        private String apellido1;
+        private String apellido2;
+        private String run;
+        private String runFamiliar;
+        private String Parentesco;
+        private int edad;
 
         public TrabajoIndividual27M4() {
         }
