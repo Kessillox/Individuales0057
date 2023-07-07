@@ -31,7 +31,10 @@ public class Main {
         //Imprimir pers1 vacía
         System.out.println(pers1.toString());
         System.out.println(pers1);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 03f24c580d5bb5f7f194341fdb4688f0cede44a3
         System.out.println("");
 
         //Seteando o asignando valores al objeto pers1

@@ -1,5 +1,6 @@
 package primerproyecto.poo;
 
+<<<<<<< HEAD
 import java.time.LocalDate;
 import java.util.List;
 
@@ -52,4 +53,7 @@ public class Alumno extends Persona {
                 ", listaAnotaciones=" + listaAnotaciones +
                 "} ";
     }
+=======
+public class Alumno {
+>>>>>>> 03f24c580d5bb5f7f194341fdb4688f0cede44a3
 }

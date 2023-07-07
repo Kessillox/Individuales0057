@@ -65,8 +65,12 @@ public class Trabajador {
     }
 
     public int descomponerRun(){
-        String[] partes = this.run.split("-");
-        return Integer.parseInt(partes[0]);
+        if(this.run.contains(".")){
+            this.run = this.run.replace(".", "");
+        }
+        String[] runSinGuion = run.split("-");
+
+        return Integer.parseInt(runSinGuion[0]);
     }
 
 
