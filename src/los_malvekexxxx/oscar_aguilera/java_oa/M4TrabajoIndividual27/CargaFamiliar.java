@@ -28,7 +28,7 @@ public class CargaFamiliar {
         return nombre1;
     }
 
-    public void setNombre1(String nombre1) {
+    private void setNombre1(String nombre1) {
         this.nombre1 = nombre1;
     }
 
@@ -36,7 +36,7 @@ public class CargaFamiliar {
         return nombre2;
     }
 
-    public void setNombre2(String nombre2) {
+    private void setNombre2(String nombre2) {
         this.nombre2 = nombre2;
     }
 
@@ -44,7 +44,7 @@ public class CargaFamiliar {
         return apellido1;
     }
 
-    public void setApellido1(String apellido1) {
+    private void setApellido1(String apellido1) {
         this.apellido1 = apellido1;
     }
 
@@ -52,7 +52,7 @@ public class CargaFamiliar {
         return apellido2;
     }
 
-    public void setApellido2(String apellido2) {
+    private void setApellido2(String apellido2) {
         this.apellido2 = apellido2;
     }
 
@@ -60,7 +60,7 @@ public class CargaFamiliar {
         return run;
     }
 
-    public void setRun(String run) {
+    private void setRun(String run) {
         this.run = run;
     }
 
@@ -68,7 +68,7 @@ public class CargaFamiliar {
         return runFamiliar;
     }
 
-    public void setRunFamiliar(String runFamiliar) {
+    private void setRunFamiliar(String runFamiliar) {
         this.runFamiliar = runFamiliar;
     }
 
@@ -76,7 +76,7 @@ public class CargaFamiliar {
         return Parentesco;
     }
 
-    public void setParentesco(String parentesco) {
+    private void setParentesco(String parentesco) {
         Parentesco = parentesco;
     }
 
@@ -84,10 +84,21 @@ public class CargaFamiliar {
         return edad;
     }
 
-    public void setEdad(int edad) {
+    private void setEdad(int edad) {
         this.edad = edad;
     }
 
-
-
+    @Override
+    public String toString() {
+        return "CargaFamiliar{" +
+                "nombre1='" + nombre1 + '\'' +
+                ", nombre2='" + nombre2 + '\'' +
+                ", apellido1='" + apellido1 + '\'' +
+                ", apellido2='" + apellido2 + '\'' +
+                ", run='" + run + '\'' +
+                ", runFamiliar='" + runFamiliar + '\'' +
+                ", Parentesco='" + Parentesco + '\'' +
+                ", edad=" + edad +
+                '}';
+    }
 }
