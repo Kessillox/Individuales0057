@@ -2,7 +2,7 @@ package individual23;
 
 import java.util.Scanner;
 
-public class Individual23 {
+public class Ind23 {
     public static void main(String[] args) {
         //Instancia del Scanner
         Scanner sc = new Scanner(System.in);
