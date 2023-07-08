@@ -40,20 +40,16 @@ public class Profesor extends Persona{
                 "} ";
     }
 
-<<<<<<< HEAD
-    @Override
-=======
->>>>>>> 03f24c580d5bb5f7f194341fdb4688f0cede44a3
+
     public String presentacion(){
       String saludo = "Hola! soy el profesor "+this.getNombre()+" y hago clases de "+this.asignatura +" en los cursos "+ this.getListaCursos();
     return saludo;
     }
-<<<<<<< HEAD
+
 
     public String inspectoria(){
         String orden = "a Inspectoría!!!! Yaaaaa!!";
         return  orden;
     }
-=======
->>>>>>> 03f24c580d5bb5f7f194341fdb4688f0cede44a3
+
 }
