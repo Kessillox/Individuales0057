@@ -32,7 +32,10 @@ public class Main {
         System.out.println(pers1.toString());
         System.out.println(pers1);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 03f24c580d5bb5f7f194341fdb4688f0cede44a3
 =======
 >>>>>>> 03f24c580d5bb5f7f194341fdb4688f0cede44a3
         System.out.println("");
