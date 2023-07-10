@@ -1,4 +1,4 @@
-package individual23.bytemaster;
+package ind23.bytemaster;
 
 import java.util.Scanner;
 

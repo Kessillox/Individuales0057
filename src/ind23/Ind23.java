@@ -1,4 +1,4 @@
-package individual23;
+package ind23;
 
 import java.util.Scanner;
 

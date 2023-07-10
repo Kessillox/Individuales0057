@@ -1,4 +1,4 @@
-package individual23.grupoada;
+package ind23.grupoada;
 
 import java.util.Scanner;
 

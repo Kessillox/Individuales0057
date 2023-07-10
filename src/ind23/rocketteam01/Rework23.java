@@ -1,4 +1,4 @@
-package individual23.rocketteam01;
+package ind23.rocketteam01;
 
 import java.util.Scanner;
 // Team Rocket M4E23
