@@ -39,6 +39,7 @@ public class Honorario extends Trabajador{
 
     @Override
     public void mostrarDatos() {
+        System.out.println("soy un trabajador Honorario");
         super.mostrarDatos();
     }
 }

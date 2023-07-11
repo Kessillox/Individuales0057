@@ -42,6 +42,7 @@ private Double salarioMensual;
 
     @Override
     public void mostrarDatos() {
+        System.out.println("soy un trabajador Contratado");
         super.mostrarDatos();
     }
 }
