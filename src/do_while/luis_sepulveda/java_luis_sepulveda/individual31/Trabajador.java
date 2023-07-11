@@ -1,4 +1,4 @@
-package do_while.luis_sepulveda.java_luis_sepulveda.individual27;
+package do_while.luis_sepulveda.java_luis_sepulveda.individual31;
 
 public class Trabajador {
     private String nombres;
@@ -73,7 +73,11 @@ public class Trabajador {
         return Integer.parseInt(runSinGuion[0]);
     }
 
+    public void mostrarDatos(){
 
+        System.out.println("el telefono del trabajador es: " + getTelefono());
+        System.out.println("La edad del trabajador es: " + getEdad());
+    }
 
     @Override
     public String toString() {

@@ -1,4 +1,4 @@
-package do_while.luis_sepulveda.java_luis_sepulveda.individual27;
+package do_while.luis_sepulveda.java_luis_sepulveda.individual29;
 
 public class Trabajador {
     private String nombres;
