@@ -32,6 +32,7 @@ public class Alumno extends Persona {
         return curso;
     }
 
+
     public void setCurso(Curso curso) {
         this.curso = curso;
     }
