@@ -28,6 +28,6 @@ public class Word extends Documento {
 
     @Override
     public void validar() {
-        System.out.println("El documento Word, versión "+this.version+" y título "+ getTitulo()+ " ha sido validado");
+        System.out.println("El documento Word, versión "+this.version+" y título "+ getNombreDocumento()+ " ha sido validado");
     }
 }

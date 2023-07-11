@@ -1,4 +1,4 @@
-public class Individual25 {
+public class Trabajador {
     /// Trabajadores (toString)
     private String nombres;
     private String apellidos;
