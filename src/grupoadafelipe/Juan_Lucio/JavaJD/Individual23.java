@@ -1,4 +1,5 @@
-package ind23;
+package grupoadafelipe.Juan_Lucio.JavaJD;
+
 
 import java.util.Scanner;
 

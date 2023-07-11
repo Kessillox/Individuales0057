@@ -1,4 +1,4 @@
-import java.lang.Math;
+package grupoadafelipe.Juan_Lucio.JavaJD;
 
 public class Individual24 {
     public static void main(String[] args) {
