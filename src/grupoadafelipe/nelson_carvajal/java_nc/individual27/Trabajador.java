@@ -8,19 +8,19 @@ public class Trabajador {
     private String apellido2;
     private String rut;
     private int edad;
-    private LocalDate fechaNacimiento;
+    private int fechaNac;
     private int telefono;
 
     public Trabajador() {
     }
 
-    public Trabajador(String nombre, String apellido1, String apellido2, String rut, int edad, LocalDate fechaNacimiento, int telefono) {
+    public Trabajador(String nombre, String apellido1, String apellido2, String rut, int edad, int fechaNac, int telefono) {
         this.nombre = nombre;
         this.apellido1 = apellido1;
         this.apellido2 = apellido2;
         this.rut = rut;
         this.edad = edad;
-        this.fechaNacimiento = fechaNacimiento;
+        this.fechaNac = fechaNac;
         this.telefono = telefono;
     }
 
@@ -64,12 +64,10 @@ public class Trabajador {
         this.edad = edad;
     }
 
-    public LocalDate getFechaNacimiento() {
-        return fechaNacimiento;
-    }
+    public int getFechaNac() { return fechaNac; }
 
-    public void setFechaNacimiento(LocalDate fechaNacimiento) {
-        this.fechaNacimiento = fechaNacimiento;
+    public void setFechaNac(int fechaNac) {
+        this.fechaNac = fechaNac;
     }
 
     public int getTelefono() {
@@ -88,17 +86,15 @@ public class Trabajador {
                 ", apellido2='" + apellido2 + '\'' +
                 ", rut='" + rut + '\'' +
                 ", edad=" + edad +
-                ", fechaNacimiento=" + fechaNacimiento +
+                ", fechaNac=" + fechaNac +
                 ", telefono=" + telefono +
                 '}';
     }
     public String nombreCompleto(){
-            return nombre +" "+ apellido1 +" "+ apellido2;
+            return "Hola soy "+nombre +" "+ apellido1 +" "+ apellido2+" MI rut es: "+ rut+" Tengo "+ edad+" años. Y nací el: "+ fechaNac +" Te dejo mi número de telefo para que me contactes  "+ telefono;
     }
-    public String nombreCompleto2(){
-        String nombreCompleto = nombre +" "+ apellido1 +" "+ apellido2;
-        return nombreCompleto;
-    }
+    public String mostrarDatos (){return telefono +" "+ edad;}
+
 
     public int procesarRut(){
 
