@@ -1,4 +1,6 @@
+package grupoadafelipe.Juan_Lucio.JavaJD;
 public class Trabajador {
+
     /// Trabajadores (toString)
     private String nombres;
     private String apellidos;

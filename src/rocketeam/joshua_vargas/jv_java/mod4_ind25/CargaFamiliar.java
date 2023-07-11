@@ -1,7 +1,5 @@
-package rocketeam.christopher_lopez.java_cl.individual25;
-
+package rocketeam.joshua_vargas.jv_java.mod4_ind25;
 public class CargaFamiliar {
-
     private String runCarga;
     private String nombres;
     private String apellidos;
@@ -75,7 +73,7 @@ public class CargaFamiliar {
                 "runCarga='" + runCarga + '\'' +
                 ", nombres='" + nombres + '\'' +
                 ", apellidos='" + apellidos + '\'' +
-                ", runFamiliar='" + runFamiliar.getRun() + '\'' +
+                ", runFamiliar=" + runFamiliar +
                 ", parentesco=" + parentesco +
                 ", edad=" + edad +
                 '}';

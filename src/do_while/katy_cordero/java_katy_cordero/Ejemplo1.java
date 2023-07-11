@@ -1,6 +1,5 @@
 package do_while.katy_cordero.java_katy_cordero;//nombre del package debe comenzar con minúscula
 
-
 public class Ejemplo1 { //el nombre de clase debe comenzar con mayúscula y seguir la notación CamelCase
 
         public static void main (String[] args) { //se corrige sintaxis del argumento
@@ -9,7 +8,7 @@ public class Ejemplo1 { //el nombre de clase debe comenzar con mayúscula y segu
                     "Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, lantejas los viernes, algún palomino de añadidura los domingos, consumían las tres partes de su hacienda."; //nombre de variable con notación camelCase pero la primera letra debe ser minúscula
 
             //El resto della concluían sayo de velarte, calzas de velludo para las fiestas, con sus pantuflos de lo mesmo,
-//y los días de entresemana se honraba con su vellorí de lo más fino
+            //y los días de entresemana se honraba con su vellorí de lo más fino
 
             int otraCosa;
             otraCosa = 6;
@@ -17,5 +16,4 @@ public class Ejemplo1 { //el nombre de clase debe comenzar con mayúscula y segu
             System.out.println("¿Te cuento un cuento?: " + var1); // nombre de variable empieza con minúscula
 
         }
-    }
-
+}
