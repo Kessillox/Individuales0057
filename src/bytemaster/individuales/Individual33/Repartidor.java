@@ -1,13 +1,18 @@
 package bytemaster.individuales.Individual33;
 
-import java.time.LocalDate;
+
 
 public class Repartidor extends Empleado {
-    private LocalDate fechaInicio;
+    private String disponibilidadHoraria;
 
-    public Repartidor(String nombre, String apellido, int edad, double salario, LocalDate fechaInicio) {
+    public Repartidor(String nombre, String apellido, int edad, double salario, String disponibilidadHoraria) {
         super(nombre, apellido, edad, salario);
-        this.fechaInicio = fechaInicio;
+        this.disponibilidadHoraria = disponibilidadHoraria;
+    }
+
+    public void mostrarInformacion() {
+        super.mostrarInformacion();
+        System.out.println("Disponibilidad horaria: " + disponibilidadHoraria);
     }
 
     public double calcularSalarioTotal() {
