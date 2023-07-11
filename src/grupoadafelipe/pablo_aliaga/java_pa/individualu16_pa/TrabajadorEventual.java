@@ -1,4 +1,4 @@
-package grupoadafelipe.nelson_carvajal.java_nc.individualU16_pa;
+package grupoadafelipe.pablo_aliaga.java_pa.individualu16_pa;
 //ESTE TRABAJO INCLUYE EL INDIVIDUAL31
 public class TrabajadorEventual extends Trabajador {
     private String disponibilidad;
