@@ -23,17 +23,17 @@ public class Repartidor extends Empleado {
     public String toString() {
         return "Repartidor{" +
                 "disponibilidad='" + disponibilidad + '\'' +
-                '}';
+                ", salario=" + salario +
+                "} " + super.toString();
     }
 
     @Override
     public void calcularSueldo() {
         super.calcularSueldo();
         if (getEdad() < 30) {
-            int salarioActual = getSalario();
-            int nuevoSalario = salarioActual + 15000;
-            setSalario(nuevoSalario);
-        }
+           this.setSalario(getSalario() + 15000);
+            }
+        System.out.println("Salario total (con bono de repartidor: "+ salario);
     }
 }
 

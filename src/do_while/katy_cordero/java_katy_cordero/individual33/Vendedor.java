@@ -23,14 +23,15 @@ public class Vendedor extends Empleado {
     public String toString() {
         return "Vendedor{" +
                 "fechaInicio='" + fechaInicio + '\'' +
-                '}';
-
+                ", salario=" + salario +
+                "} " + super.toString();
     }
 
     @Override
     public void calcularSueldo() {
         super.calcularSueldo();
         this.setSalario(getSalario() + 50000);
+        System.out.println("Salario total (con bono de vendedor): " + salario);
     }
 
     /*
