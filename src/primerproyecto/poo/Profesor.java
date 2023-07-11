@@ -46,7 +46,6 @@ public class Profesor extends Persona{
     return saludo;
     }
 
-
     public String inspectoria(){
         String orden = "a Inspectoría!!!! Yaaaaa!!";
         return  orden;
