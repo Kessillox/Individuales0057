@@ -1,4 +1,6 @@
-package grupoadafelipe.Juan_Lucio.JavaJD;
+package grupoadafelipe.Juan_Lucio.JavaJD.Individual25a27;
+
+// Individual 25
 public class Trabajador {
 
     /// Trabajadores (toString)
@@ -9,11 +11,11 @@ public class Trabajador {
     private int edad;
 
     // Constructor vacío
-    public Trabajador() {
+    public Trabajador(String s) {
     }
 
     // Constructor que recibe todos los atributos
-    public Trabajador(String nombres, String apellidos, String run, String telefono, int edad) {
+    public Trabajador() {
         this.nombres = nombres;
         this.apellidos = apellidos;
         this.run = run;
