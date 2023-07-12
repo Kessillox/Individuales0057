@@ -9,7 +9,7 @@ public class TrabajadorHonorario extends Trabajador{
     public TrabajadorHonorario() {
     }
 
-    public TrabajadorHonorario(String nombre, String apellido1, String apellido2, String rut, int edad, int fechaNac, int telefono, String giro, int yearStart) {
+    public TrabajadorHonorario(String nombre, String apellido1, String apellido2, String rut, int edad, LocalDate fechaNac, int telefono, String giro, int yearStart) {
         super(nombre, apellido1, apellido2, rut, edad, fechaNac, telefono);
         this.giro = giro;
         this.yearStart = yearStart;
