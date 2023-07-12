@@ -1,5 +1,6 @@
 package grupoadafelipe.Juan_Lucio.JavaJD;
-public class Individual25 {
+public class Trabajador {
+
     /// Trabajadores (toString)
     private String nombres;
     private String apellidos;
@@ -8,11 +9,11 @@ public class Individual25 {
     private int edad;
 
     // Constructor vacío
-    public Individual25() {
+    public Trabajador() {
     }
 
     // Constructor que recibe todos los atributos
-    public Individual25(String nombres, String apellidos, String run, String telefono, int edad) {
+    public Trabajador(String nombres, String apellidos, String run, String telefono, int edad) {
         this.nombres = nombres;
         this.apellidos = apellidos;
         this.run = run;
