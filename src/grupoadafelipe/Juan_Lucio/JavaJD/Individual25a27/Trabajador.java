@@ -11,11 +11,12 @@ public class Trabajador {
     private int edad;
 
     // Constructor vacío
-    public Trabajador(String s) {
+
+    public Trabajador() {
     }
 
     // Constructor que recibe todos los atributos
-    public Trabajador() {
+    public Trabajador(String nombres, String apellidos, String run, String telefono, int edad) {
         this.nombres = nombres;
         this.apellidos = apellidos;
         this.run = run;
