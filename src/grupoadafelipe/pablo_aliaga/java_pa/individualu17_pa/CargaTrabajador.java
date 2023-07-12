@@ -1,4 +1,4 @@
-package grupoadafelipe.pablo_aliaga.java_pa.individualu16_pa;
+package grupoadafelipe.pablo_aliaga.java_pa.individualu17_pa;
 
 public class CargaTrabajador {
     //atributos
