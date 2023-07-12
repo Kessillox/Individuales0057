@@ -1,4 +1,4 @@
-package rocketeam.christopher_lopez.java_cl.individual25;
+package rocketeam.christopher_lopez.java_cl.corredorapropiedades;
 
 public class CargaFamiliar {
 

@@ -28,7 +28,7 @@ public class Pdf extends Documento{
 
     @Override
     public void validar() {
-        System.out.println("El documento PDF de título "+getTitulo()+" ha sido validado");
+        System.out.println("El documento PDF de título "+ getNombreDocumento()+" ha sido validado");
     }
 
 }

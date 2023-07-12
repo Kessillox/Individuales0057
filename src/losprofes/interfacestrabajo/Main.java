@@ -19,8 +19,16 @@ public class Main {
         servicioValidacion.agregarArchivo(img1);
         servicioValidacion.agregarArchivo(img2);
         servicioValidacion.agregarArchivo(img3);
-
-
+        System.out.println("*********************************");
+        servicioValidacion.validarArchivo();
+        System.out.println("*********************************");
+        servicioValidacion.listarArchivos();
+        System.out.println("*********************************");
+        servicioValidacion.eliminarArchivo(img1);
+        servicioValidacion.eliminarArchivo(img2);
+        servicioValidacion.eliminarArchivo(img3);
+        servicioValidacion.listarArchivos();
+        System.out.println("*********************************");
         servicioValidacion.validarArchivo();
 
     }

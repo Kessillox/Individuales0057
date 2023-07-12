@@ -99,7 +99,6 @@ public class Trabajador {
         String nombreCompleto = nombre +" "+ apellido1 +" "+ apellido2;
         return nombreCompleto;
     }
-
     public int procesarRut(){
 
         int rut=0;
