@@ -1,16 +1,16 @@
-package rocketeam.joshua_vargas.jv_java.mod4_ind25;
+package rocketeam.joshua_vargas.jv_java.mod4_ind25_corredoradepropiedades;
 
 public class Trabajador {
     private String nombres;
     private String apellidos;
     private String run;
-    private String telefono;
+    private int telefono;
     private int edad;
 
     public Trabajador() {
     }
 
-    public Trabajador(String nombres, String apellidos, String run, String telefono, int edad) {
+    public Trabajador(String nombres, String apellidos, String run, int telefono, int edad) {
         this.nombres = nombres;
         this.apellidos = apellidos;
         this.run = run;
@@ -42,11 +42,11 @@ public class Trabajador {
         this.run = run;
     }
 
-    public String getTelefono() {
+    public int getTelefono() {
         return telefono;
     }
 
-    public void setTelefono(String telefono) {
+    public void setTelefono(int telefono) {
         this.telefono = telefono;
     }
 
@@ -59,6 +59,7 @@ public class Trabajador {
     }
 
     public String nombreCompleto() {
+
         return nombres + " " + apellidos;
     }
 
@@ -67,6 +68,12 @@ public class Trabajador {
         String runSinGuion = partes[0];
         return Integer.parseInt(runSinGuion);
     }
+
+    public String mostrarDatos(){
+        return "Fono: "+ this.getTelefono() +", edad: "+ this.getEdad();
+    }
+
+
 
     @Override
     public String toString() {

@@ -1,4 +1,4 @@
-package rocketeam.joshua_vargas.jv_java.mod4_ind25;
+package rocketeam.joshua_vargas.jv_java.mod4_ind25_corredoradepropiedades;
 
 public class Familiar {
     private String run;
