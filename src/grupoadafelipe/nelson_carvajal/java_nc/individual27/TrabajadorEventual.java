@@ -1,4 +1,7 @@
 package grupoadafelipe.nelson_carvajal.java_nc.individual27;
+
+import java.time.LocalDate;
+
 //ESTE TRABAJO INCLUYE EL INDIVIDUAL31
 public class TrabajadorEventual extends Trabajador {
     private String disponibilidad;
@@ -7,7 +10,7 @@ public class TrabajadorEventual extends Trabajador {
     public TrabajadorEventual() {
     }
 
-    public TrabajadorEventual(String nombre, String apellido1, String apellido2, String rut, int edad, int fechaNac, int telefono, String disponibilidad, String correo) {
+    public TrabajadorEventual(String nombre, String apellido1, String apellido2, String rut, int edad, LocalDate fechaNac, int telefono, String disponibilidad, String correo) {
         super(nombre, apellido1, apellido2, rut, edad, fechaNac, telefono);
         this.disponibilidad = disponibilidad;
         this.correo = correo;
@@ -37,7 +40,7 @@ public class TrabajadorEventual extends Trabajador {
                 '}';
     }
 
-    public TrabajadorEventual(String nombre, String apellido1, String apellido2, String rut, int edad, int fechaNac, int telefono) {
+    public TrabajadorEventual(String nombre, String apellido1, String apellido2, String rut, int edad, LocalDate fechaNac, int telefono) {
         super(nombre, apellido1, apellido2, rut, edad, fechaNac, telefono);
     }
     public String mostrarDatos (){return getNombre()+" " + getApellido1()+" "+ getApellido2()+" "+"Estoy disponible los dias :"+ disponibilidad+" " + "Mi correo es: "+correo;}

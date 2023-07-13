@@ -7,6 +7,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.Month;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
@@ -27,6 +28,24 @@ public class Main {
 
         //Instancia Obeto fNac de tipo LocalDate con valor .now()
         LocalDate fNac = LocalDate.now();
+
+        String fechaTexto;
+        LocalDate fecha = LocalDate.now();
+        DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        System.out.println(fecha.format(formato));
+
+        /***************Guardado de Fecha *********/
+        //se recibe por teclado
+        fechaTexto = "21/08/2003";
+        //se transforma en LOCALDATE
+        fecha = LocalDate.parse(fechaTexto, DateTimeFormatter.ofPattern("d/M/yyyy") );
+        //Se guarda en el objeto
+        pers1.setFechaNac(fecha);
+
+        /***************Imprimir Fecha *********/
+        System.out.println(fechaTexto);
+        System.out.println(fecha);
+        System.out.println(fecha.format(formato));
 
         //Imprimir pers1 vacía
         System.out.println(pers1.toString());
@@ -114,5 +133,8 @@ public class Main {
         System.out.println("LocalDateTime = " + LocalDateTime.now());
         System.out.println("LocalTime = " + LocalTime.now());
         System.out.println("El Cumpleaños de Andrés es = " + LocalDate.of(1995, Month.MARCH, 4));
+
+    Persona persona12 = new Persona("Nelson", "Carvajal", 15, LocalDate.of(2010, Month.OCTOBER,12));
     }
+
 }

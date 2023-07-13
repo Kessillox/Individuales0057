@@ -1,6 +1,7 @@
 package grupoadafelipe.nelson_carvajal.java_nc.individual27;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class Trabajador {
     private String nombre;
@@ -8,13 +9,13 @@ public class Trabajador {
     private String apellido2;
     private String rut;
     private int edad;
-    private int fechaNac;
+    private LocalDate fechaNac;
     private int telefono;
 
     public Trabajador() {
     }
 
-    public Trabajador(String nombre, String apellido1, String apellido2, String rut, int edad, int fechaNac, int telefono) {
+    public Trabajador(String nombre, String apellido1, String apellido2, String rut, int edad, LocalDate fechaNac, int telefono) {
         this.nombre = nombre;
         this.apellido1 = apellido1;
         this.apellido2 = apellido2;
@@ -64,9 +65,9 @@ public class Trabajador {
         this.edad = edad;
     }
 
-    public int getFechaNac() { return fechaNac; }
+    public LocalDate getFechaNac() { return fechaNac; }
 
-    public void setFechaNac(int fechaNac) {
+    public void setFechaNac(LocalDate fechaNac) {
         this.fechaNac = fechaNac;
     }
 
@@ -90,8 +91,9 @@ public class Trabajador {
                 ", telefono=" + telefono +
                 '}';
     }
+    DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy");
     public String nombreCompleto(){
-            return "Hola soy "+nombre +" "+ apellido1 +" "+ apellido2+" MI rut es: "+ rut+" Tengo "+ edad+" años. Y nací el: "+ fechaNac +" Te dejo mi número de telefo para que me contactes  "+ telefono;
+            return "Hola soy "+nombre +" "+ apellido1 +" "+ apellido2+" MI rut es: "+ rut+" Tengo "+ edad+" años. Y nací el: "+ fechaNac.format(formato) +" Te dejo mi número de telefo para que me contactes  "+ telefono;
     }
     public String mostrarDatos (){return telefono +" "+ edad;}
 

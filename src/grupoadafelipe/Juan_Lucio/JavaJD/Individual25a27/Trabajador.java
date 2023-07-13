@@ -1,4 +1,6 @@
-package grupoadafelipe.Juan_Lucio.JavaJD;
+package grupoadafelipe.Juan_Lucio.JavaJD.Individual25a27;
+
+// Individual 25
 public class Trabajador {
 
     /// Trabajadores (toString)
@@ -9,6 +11,7 @@ public class Trabajador {
     private int edad;
 
     // Constructor vacío
+
     public Trabajador() {
     }
 
