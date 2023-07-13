@@ -1,6 +1,7 @@
 package grupoadafelipe.nelson_carvajal.java_nc.individual27;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 //ESTE TRABAJO INCLUYE EL INDIVIDUAL31
 public class TrabajadorContratado extends Trabajador{
@@ -39,5 +40,6 @@ public class TrabajadorContratado extends Trabajador{
                 ", salario=" + salario +
                 '}';
     }
-    public String mostrarDatos (){return fechaIngre+" "+salario;}
+    DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+    public String mostrarDatos (){return "Mi ingreso fue el: "+fechaIngre.format(formato)+" y mi salario es de $"+salario+" CLP";}
 }

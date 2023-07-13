@@ -1,6 +1,7 @@
 package grupoadafelipe.nelson_carvajal.java_nc.individual27;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class Trabajador {
     private String nombre;
@@ -90,8 +91,9 @@ public class Trabajador {
                 ", telefono=" + telefono +
                 '}';
     }
+    DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy");
     public String nombreCompleto(){
-            return "Hola soy "+nombre +" "+ apellido1 +" "+ apellido2+" MI rut es: "+ rut+" Tengo "+ edad+" años. Y nací el: "+ fechaNac +" Te dejo mi número de telefo para que me contactes  "+ telefono;
+            return "Hola soy "+nombre +" "+ apellido1 +" "+ apellido2+" MI rut es: "+ rut+" Tengo "+ edad+" años. Y nací el: "+ fechaNac.format(formato) +" Te dejo mi número de telefo para que me contactes  "+ telefono;
     }
     public String mostrarDatos (){return telefono +" "+ edad;}
 
