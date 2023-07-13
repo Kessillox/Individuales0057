@@ -2,30 +2,30 @@ package grupoadafelipe.pablo_aliaga.java_pa.individualu17_pa;
 
 import java.time.LocalDate;
 
-public class Vendedor extends Empleado{
+public class Vendedor extends Empleado {
 
-    private localDate fechaInicio;
-    private int bonoVendedor = 50000;
+    public LocalDate fechaInicio;
+    public int bonoVendedor = 50000;
 
     public Vendedor() {
     }
 
-    public Vendedor(localDate fechaInicio, int bonoVendedor) {
+    public Vendedor(LocalDate fechaInicio, int bonoVendedor) {
         this.fechaInicio = fechaInicio;
         this.bonoVendedor = bonoVendedor;
     }
 
-    public Vendedor(String nombre, String apellido, LocalDate fechaNacimiento, int salario, localDate fechaInicio, int bonoVendedor) {
+    public Vendedor(String nombre, String apellido, LocalDate fechaNacimiento, int salario, LocalDate fechaInicio, int bonoVendedor) {
         super(nombre, apellido, fechaNacimiento, salario);
         this.fechaInicio = fechaInicio;
         this.bonoVendedor = bonoVendedor;
     }
 
-    public localDate getFechaInicio() {
+    public LocalDate getFechaInicio() {
         return fechaInicio;
     }
 
-    public void setFechaInicio(localDate fechaInicio) {
+    public void setFechaInicio(LocalDate fechaInicio) {
         this.fechaInicio = fechaInicio;
     }
 
