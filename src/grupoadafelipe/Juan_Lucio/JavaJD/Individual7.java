@@ -16,7 +16,7 @@ public class Individual7 {
         int cantidadTrabajadores = scanner.nextInt();
 
         for (int i = 1; i <= cantidadTrabajadores; i++) {
-            System.out.println("Trabajador " + i + ":");
+            System.out.println("Trabajadormalvekex " + i + ":");
 
             // Solicitud de los datos del trabajador
             System.out.println("Ingrese el nombre:");

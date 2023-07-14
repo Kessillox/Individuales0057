@@ -1,14 +1,16 @@
 package primerproyecto.mainapp;
 
+
 import primerproyecto.poo.*;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.Month;
-import java.util.logging.Logger;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Logger;
 
 /**
  * Clase Main de MiPrimerProyecto
@@ -27,6 +29,24 @@ public class Main {
         //Instancia Obeto fNac de tipo LocalDate con valor .now()
         LocalDate fNac = LocalDate.now();
 
+        String fechaTexto;
+        LocalDate fecha = LocalDate.now();
+        DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        System.out.println(fecha.format(formato));
+
+        /***************Guardado de Fecha *********/
+        //se recibe por teclado
+        fechaTexto = "21/08/2003";
+        //se transforma en LOCALDATE
+        fecha = LocalDate.parse(fechaTexto, DateTimeFormatter.ofPattern("d/M/yyyy") );
+        //Se guarda en el objeto
+        pers1.setFechaNac(fecha);
+
+        /***************Imprimir Fecha *********/
+        System.out.println(fechaTexto);
+        System.out.println(fecha);
+        System.out.println(fecha.format(formato));
+
         //Imprimir pers1 vacía
         System.out.println(pers1.toString());
         System.out.println(pers1);
@@ -43,18 +63,18 @@ public class Main {
         Curso curso2 = new Curso();
         Curso curso3 = new Curso();
 
+        //Instancia Lista de Cursos
+        List<Curso> listaCursosProf1 = new ArrayList<>();
         //System.out.println(pers1);
         log.info(pers1.toString());
         log.info(pers1.presentacion());
 
-        //System.out.println(pers1.getNombre());
-        log.info(pers1.getNombre());
 
-        //System.out.println("LocalDate = " + LocalDate.now());
-        log.info("LocalDate = " + LocalDate.now());
+        //Añadiendo los cursos 1, 2 y 3 a la lista
+        listaCursosProf1.add(curso1);
+        listaCursosProf1.add(curso2);
+        listaCursosProf1.add(curso3);
 
-        //System.out.println("LocalDateTime = " + LocalDateTime.now());
-        log.info("LocalDateTime = " + LocalDateTime.now());
 
         //System.out.println("LocalTime = " + LocalTime.now());
         log.info("LocalTime = " + LocalTime.now());
@@ -63,7 +83,6 @@ public class Main {
         log.info("El cumpleaños de Andres es = " + LocalDate.of(1995, Month.MARCH, 4));
 
         //Instancia Lista de Cursos
-        List<Curso> listaCursosProf1 = new ArrayList<>();
 
         //Seteo de datos de los objetos curso
         curso1.setLetra("A");
@@ -95,6 +114,7 @@ public class Main {
         System.out.println("*******************Persona*******************");
         System.out.println(pers1);
         System.out.println(pers1.getNombre());
+
         System.out.println(pers1.presentacion());
         System.out.println("");
         System.out.println("*******************Profesor*******************");
@@ -104,6 +124,7 @@ public class Main {
         System.out.println("********************Metodo presentacion******************");
         System.out.println(prof1.presentacion());
         System.out.println(prof2.presentacion());
+
         System.out.println(prof1.inspectoria());
         System.out.println(prof2.inspectoria());
         System.out.println("");
@@ -112,5 +133,8 @@ public class Main {
         System.out.println("LocalDateTime = " + LocalDateTime.now());
         System.out.println("LocalTime = " + LocalTime.now());
         System.out.println("El Cumpleaños de Andrés es = " + LocalDate.of(1995, Month.MARCH, 4));
+
+    Persona persona12 = new Persona("Nelson", "Carvajal", 15, LocalDate.of(2010, Month.OCTOBER,12));
     }
+
 }

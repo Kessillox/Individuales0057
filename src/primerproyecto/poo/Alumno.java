@@ -32,6 +32,7 @@ public class Alumno extends Persona {
         return curso;
     }
 
+
     public void setCurso(Curso curso) {
         this.curso = curso;
     }
@@ -46,7 +47,7 @@ public class Alumno extends Persona {
 
     @Override
     public String toString() {
-        return super.toString()+ " Alumno{" +
+        return super.toString() + " Alumno{" +
                 "nLista=" + nLista +
                 ", curso=" + curso +
                 ", listaAnotaciones=" + listaAnotaciones +

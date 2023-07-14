@@ -3,27 +3,27 @@ package losprofes.interfacestrabajo.modelos;
 import losprofes.interfacestrabajo.interfaces.IValidacion;
 
 public class Documento implements IValidacion {
-    private String titulo;
+    private String nombreDocumento;
 
     public Documento() {
     }
 
     public Documento(String titulo) {
-        this.titulo = titulo;
+        this.nombreDocumento = titulo;
     }
 
-    public String getTitulo() {
-        return titulo;
+    public String getNombreDocumento() {
+        return nombreDocumento;
     }
 
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
+    public void setNombreDocumento(String nombreDocumento) {
+        this.nombreDocumento = nombreDocumento;
     }
 
     @Override
     public String toString() {
         return "Documento{" +
-                "titulo='" + titulo + '\'' +
+                "titulo='" + nombreDocumento + '\'' +
                 '}';
     }
 

@@ -82,7 +82,7 @@ public class Trabajador {
 
     @Override
     public String toString() {
-        return "Trabajador{" +
+        return "Trabajadormalvekex{" +
                 "nombre='" + nombre + '\'' +
                 ", apellido1='" + apellido1 + '\'' +
                 ", apellido2='" + apellido2 + '\'' +
@@ -99,7 +99,6 @@ public class Trabajador {
         String nombreCompleto = nombre +" "+ apellido1 +" "+ apellido2;
         return nombreCompleto;
     }
-
     public int procesarRut(){
 
         int rut=0;
