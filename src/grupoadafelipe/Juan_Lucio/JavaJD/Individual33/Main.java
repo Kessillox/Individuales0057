@@ -1,4 +1,4 @@
-package grupoadafelipe.pablo_aliaga.java_pa.individualu17_pa;
+package grupoadafelipe.Juan_Lucio.JavaJD.Individual33;
 import java.time.LocalDate;
 public class Main {
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package grupoadafelipe.Juan_Lucio.JavaJD.Individual30;
+
 public class Envio {
     private String metodo;
     private double costo;

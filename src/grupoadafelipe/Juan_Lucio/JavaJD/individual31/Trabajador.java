@@ -1,4 +1,4 @@
-package grupoadafelipe.nelson_carvajal.java_nc.individual27;
+package grupoadafelipe.Juan_Lucio.JavaJD.individual31;
 
 import java.time.LocalDate;
 

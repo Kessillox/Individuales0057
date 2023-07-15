@@ -1,3 +1,5 @@
+package grupoadafelipe.Juan_Lucio.JavaJD.Individual30;
+
 public class Pago {
     private String tipo;
     private double monto;

@@ -1,4 +1,4 @@
-package grupoadafelipe.nelson_carvajal.java_nc.individual27;
+package grupoadafelipe.Juan_Lucio.JavaJD.individual31;
 //ESTE TRABAJO INCLUYE EL INDIVIDUAL31
 public class TrabajadorContratado extends Trabajador{
     private int fechaIngre;

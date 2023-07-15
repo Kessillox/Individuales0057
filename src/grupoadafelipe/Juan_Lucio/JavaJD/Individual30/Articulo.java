@@ -1,3 +1,5 @@
+package grupoadafelipe.Juan_Lucio.JavaJD.Individual30;
+
 public class Articulo {
     private String nombre;
     private double precio;
